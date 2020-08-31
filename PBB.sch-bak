@@ -4,12 +4,12 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "Primary Battery Board v1.1"
-Date "2020-08-29"
+Title "Primary Battery Board"
+Date "2018-10-20"
 Rev ""
-Comp "UT Solar Vehicle Team - Battery"
-Comment1 "Summer 2020"
-Comment2 ""
+Comp "UT Solar Vehicle Team - BeVolt"
+Comment1 "BeVolt - Fall 2018"
+Comment2 "James Corbin and Alex Rodriguez"
 Comment3 ""
 Comment4 ""
 $EndDescr
