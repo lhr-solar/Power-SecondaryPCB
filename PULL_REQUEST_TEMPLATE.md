@@ -1,4 +1,4 @@
-## Quality Checklist
+# Quality Assurance Checklist
 To make reviews more efficient, please make sure the board meets the following standards and check everything off once the board meets the quality check. Once everything has been checked, the assigned reviewers will begin the review process. _Edit this description to check off the list._
 
 There are exceptions with all guidelines. As long as your decisions are justified, then you are good! Contact the reviewers or the leads about any exceptions.
@@ -8,6 +8,7 @@ There are exceptions with all guidelines. As long as your decisions are justifie
 - [ ] The board passes ERC and DRC.
     - Note some ERC warnings are acceptable.
 - [ ] All traces are routed.
+- [ ] Units are in metric.
 
 ### 2D Spacing
 - [ ] The components are spaced out at an optimal distance.
@@ -58,8 +59,11 @@ There are exceptions with all guidelines. As long as your decisions are justifie
 - [ ] The physical outline of the board is on the edge cut layer.
 - [ ] Edge cuts are straight and parallel with opposite edge of the board.
 - [ ] Mounting holes are aligned.
-- [ ] Corners are curved.
+- [ ] Corners are curved and contoured to mounting holes.
 
 ### IMPORTANT NOTICE
 - [ ] I am confident that this board will be safe to use in a safety critical environment.
 - [ ] I had fun :)
+
+## Other Comments
+_Write any comments about the board that would help the reviewers here._
