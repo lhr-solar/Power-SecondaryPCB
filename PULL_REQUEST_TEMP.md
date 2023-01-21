@@ -15,7 +15,7 @@ There are exceptions with all guidelines. As long as your decisions are justifie
 - [X] Units are in metric. 
 - [X] Everything in schematic level is annotated and all components have datasheets associated with them. 
 - [X] BOM was generated at schematic level and price of all components is listed in BOM somewhere. 
-- [ ] 2 Members of the team have already reviewed my PR 
+- [X] 2 Members of the team have already reviewed my PR 
 
 - NOTE: Approver will not look at PR if 2 other members haven't reviewed first 
 
