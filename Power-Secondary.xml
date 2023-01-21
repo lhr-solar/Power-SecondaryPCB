@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\jkaci\Documents\LHR_Boards\Power-SecondaryPCB\Power-Secondary.kicad_sch</source>
+    <date>1/21/2023 11:32:01 AM</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Supplemental Battery Board v3.0</title>
+        <company>UT Solar Vehicle Team - Power Systems</company>
+        <rev/>
+        <date>2022-11-05</date>
+        <source>Power-Secondary.kicad_sch</source>
+        <comment number="1" value="Fall 2022"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/212/KEM_C1006_X5R_SMD-1103249.pdf</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d71c7cb-7278-4b93-bb68-c8986bd322fb</tstamps>
+    </comp>
+    <comp ref="DS1">
+      <value>SUPP_PWR</value>
+      <footprint>Diode_SMD:D_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/216/APTD2012LSURCK-1101937.pdf</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>075228c9-1da9-48a7-a016-2296896a8fe4</tstamps>
+    </comp>
+    <comp ref="DS2">
+      <value>DCDC_PWR</value>
+      <footprint>Diode_SMD:D_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/216/APTD2012LSURCK-1101937.pdf</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe5f1784-1a7b-46da-a6de-c677ca8b7c06</tstamps>
+    </comp>
+    <comp ref="DS3">
+      <value>SUPP_GATE</value>
+      <footprint>Diode_SMD:D_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/216/APTD2012LSURCK-1101937.pdf</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f4590b2-c6c7-4c5a-a2b8-5eedefdb8002</tstamps>
+    </comp>
+    <comp ref="DS4">
+      <value>DCDC_GATE</value>
+      <footprint>Diode_SMD:D_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/216/APTD2012LSURCK-1101937.pdf</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37bc2c14-8147-4d19-88fb-38508b9feefd</tstamps>
+    </comp>
+    <comp ref="DS5">
+      <value>FUSE_OUT</value>
+      <footprint>Diode_SMD:D_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/216/APTD2012LSURCK-1101937.pdf</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e8fbc14-3950-49ce-b89b-6c0e872076c3</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>Fuse:Fuseholder_Blade_Mini_Keystone_3568</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>407b0814-d245-490e-8e56-8de8533c5d42</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f59bd9f</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f59d039</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f59d410</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f59d7c1</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>SUPP PWR 1</value>
+      <footprint>Connector_Molex:Molex_Sabre_43160-0102_1x02_P7.49mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bd1446e</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>SUPP PWR 2</value>
+      <footprint>Connector_Molex:Molex_Sabre_43160-0102_1x02_P7.49mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62ed3499-2f76-4028-a156-c1b25c17bab3</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>DCDC SUPPLY</value>
+      <footprint>Connector_Molex:Molex_Sabre_43160-0102_1x02_P7.49mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd0edbae-dfba-4eab-b5cf-06a4da1327a5</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>FUSE +12V</value>
+      <footprint>Connector_Molex:Molex_Sabre_43160-0102_1x02_P7.49mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01878031-b10a-47ea-84ce-ec6f310d54e1</tstamps>
+    </comp>
+    <comp ref="LOGO1">
+      <value>Dr Hallock</value>
+      <footprint>UTSVT_Special:Hallock_Image_Tiny</footprint>
+      <libsource lib="Power-Secondary-rescue" part="Logo_Placeholder-utsvt-misc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f58f0f8</tstamps>
+    </comp>
+    <comp ref="LOGO2">
+      <value>UTSVT</value>
+      <footprint>UTSVT_Special:UTSVT_Logo_Symbol</footprint>
+      <libsource lib="Power-Secondary-rescue" part="Logo_Placeholder-utsvt-misc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f58dd59</tstamps>
+    </comp>
+    <comp ref="Q1A1">
+      <value>SUP90P06-PCHANNEL-MOSFET</value>
+      <footprint>UTSVT_PowerSupp:SUP90P06-PCHAN-ENH-PWR-MOSFET</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-AUIRF4905-DS-v01_02-EN.pdf?fileId=5546d462533600a4015355acc8c413be</datasheet>
+      <fields>
+        <field name="Description">AUIRF4905 P-Channel MOSFET, 74 A, 55 V HEXFET, 3-Pin TO-220AB Infineon</field>
+        <field name="Height">4.83</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">AUIRF4905</field>
+        <field name="Mouser Part Number">942-AUIRF4905</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/AUIRF4905?qs=z4XQqHkgcr1Dv6LERHGgXg%3D%3D</field>
+      </fields>
+      <libsource lib="utsvt-powersupp" part="SUP90P06-PCHANNEL-MOSFET" description="AUIRF4905 P-Channel MOSFET, 74 A, 55 V HEXFET, 3-Pin TO-220AB Infineon"/>
+      <property name="Description" value="AUIRF4905 P-Channel MOSFET, 74 A, 55 V HEXFET, 3-Pin TO-220AB Infineon"/>
+      <property name="Height" value="4.83"/>
+      <property name="Mouser Part Number" value="942-AUIRF4905"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/AUIRF4905?qs=z4XQqHkgcr1Dv6LERHGgXg%3D%3D"/>
+      <property name="Manufacturer_Name" value="Infineon"/>
+      <property name="Manufacturer_Part_Number" value="AUIRF4905"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f08e1fc9-8f99-4f70-86c7-ff29c023a03b</tstamps>
+    </comp>
+    <comp ref="Q2B1">
+      <value>SUP90P06-PCHANNEL-MOSFET</value>
+      <footprint>UTSVT_PowerSupp:SUP90P06-PCHAN-ENH-PWR-MOSFET</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-AUIRF4905-DS-v01_02-EN.pdf?fileId=5546d462533600a4015355acc8c413be</datasheet>
+      <fields>
+        <field name="Description">AUIRF4905 P-Channel MOSFET, 74 A, 55 V HEXFET, 3-Pin TO-220AB Infineon</field>
+        <field name="Height">4.83</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">AUIRF4905</field>
+        <field name="Mouser Part Number">942-AUIRF4905</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/AUIRF4905?qs=z4XQqHkgcr1Dv6LERHGgXg%3D%3D</field>
+      </fields>
+      <libsource lib="utsvt-powersupp" part="SUP90P06-PCHANNEL-MOSFET" description="AUIRF4905 P-Channel MOSFET, 74 A, 55 V HEXFET, 3-Pin TO-220AB Infineon"/>
+      <property name="Description" value="AUIRF4905 P-Channel MOSFET, 74 A, 55 V HEXFET, 3-Pin TO-220AB Infineon"/>
+      <property name="Height" value="4.83"/>
+      <property name="Mouser Part Number" value="942-AUIRF4905"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/AUIRF4905?qs=z4XQqHkgcr1Dv6LERHGgXg%3D%3D"/>
+      <property name="Manufacturer_Name" value="Infineon"/>
+      <property name="Manufacturer_Part_Number" value="AUIRF4905"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de936999-33a9-4944-bfa6-b2caead80808</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/crcwhpe3-1713858.pdf</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cc2f534-d2a6-436d-973e-c0e1f2fd2f29</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/crcwhpe3-1713858.pdf</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>281fb475-ab09-41a7-bde5-7a16b8404811</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>180K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/crcwhpe3-1713858.pdf</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3940553-2302-4d4e-8b89-cf9a32f5c73b</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/crcwhpe3-1713858.pdf</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d07a1561-3f3a-4d3f-bf07-3e9eeb14af43</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/crcwhpe3-1713858.pdf</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34593a60-a261-42ca-81ae-0a837f04bb2d</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/crcwhpe3-1713858.pdf</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>367e3f7a-3ec7-4e33-841f-c5971c5a70ab</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/crcwhpe3-1713858.pdf</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ddf6b562-e890-4f7c-a185-4928037e74fd</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/crcwhpe3-1713858.pdf</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3482bc52-0a6d-4999-ad39-130a41bda7b7</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>SUPP_PWR</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>109e9bc3-9e02-4702-97de-7652c00076d0</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>DCDC_PWR</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d2013eb-181c-456d-95d7-a3deb50fbe6d</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>SUPP_GATE</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cccc310c-a4e8-4569-8b37-324075ea74a2</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>DCDC_GATE</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8905853-8028-4776-b332-3fa378207bfb</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>FUSE_OUT</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b587da7b-1c82-4956-ab74-31f479fb68f8</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e35c44fb-8e88-416f-9348-5b6a65a490ee</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>Opamp_Dual</value>
+      <footprint>UTSVT_PowerSupp:LM358P-OPAMP</footprint>
+      <libsource lib="Device" part="Opamp_Dual" description="Dual operational amplifier"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-Secondary.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea229af1-5c78-4204-8820-aeb307bd4276 b4611c5a-9858-4771-b8b1-ee9d6b09c33b 8884ec2e-b4ed-4993-a8b6-694a50acf070</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Opamp_Dual">
+      <description>Dual operational amplifier</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*2.95x2.8mm*P0.65mm*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>VSSOP*P0.5mm*</fp>
+        <fp>TO?99*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Opamp_Dual</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Power-Secondary-rescue" part="Logo_Placeholder-utsvt-misc">
+      <fields>
+        <field name="Reference">LOGO</field>
+        <field name="Value">Logo_Placeholder-utsvt-misc</field>
+      </fields>
+    </libpart>
+    <libpart lib="utsvt-powersupp" part="SUP90P06-PCHANNEL-MOSFET">
+      <description>AUIRF4905 P-Channel MOSFET, 74 A, 55 V HEXFET, 3-Pin TO-220AB Infineon</description>
+      <docs>https://www.infineon.com/dgdl/Infineon-AUIRF4905-DS-v01_02-EN.pdf?fileId=5546d462533600a4015355acc8c413be</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">SUP90P06-PCHANNEL-MOSFET</field>
+        <field name="Footprint">TO254P483X1016X1994-3P</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/Infineon-AUIRF4905-DS-v01_02-EN.pdf?fileId=5546d462533600a4015355acc8c413be</field>
+        <field name="Description">AUIRF4905 P-Channel MOSFET, 74 A, 55 V HEXFET, 3-Pin TO-220AB Infineon</field>
+        <field name="Height">4.83</field>
+        <field name="Mouser Part Number">942-AUIRF4905</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/AUIRF4905?qs=z4XQqHkgcr1Dv6LERHGgXg%3D%3D</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">AUIRF4905</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Power-Secondary-rescue">
+      <uri>C:\Users\jkaci\Documents\LHR_Boards\Power-SecondaryPCB/Power-Secondary-rescue.lib</uri>
+    </library>
+    <library logical="utsvt-powersupp">
+      <uri>C:\Users\jkaci\Documents\LHR_Boards\Power-SecondaryPCB/lib/UTSVT_PowerSupp.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="DCDC_GATE">
+      <node ref="Q2B1" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="7" pintype="output"/>
+    </net>
+    <net code="2" name="DCDC_PWR">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="3" name="FUSE_OUT">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1A1" pin="2" pintype="passive"/>
+      <node ref="Q2B1" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="GNDS">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="DS1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="DS2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="DS3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="DS4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="DS5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="5" name="Net-(DS1-Pad2)">
+      <node ref="DS1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(DS2-Pad2)">
+      <node ref="DS2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(DS3-Pad2)">
+      <node ref="DS3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(DS4-Pad2)">
+      <node ref="DS4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(DS5-Pad2)">
+      <node ref="DS5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="Q2B1" pin="3" pintype="passive"/>
+    </net>
+    <net code="11" name="SUPP_GATE">
+      <node ref="Q1A1" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="output"/>
+    </net>
+    <net code="12" name="SUPP_PWR">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1A1" pin="3" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="13" name="V_REF">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+  </nets>
+</export>
