@@ -1,20 +1,30 @@
 # Power-SecondaryPCB 
-Board's Purpose: \
-This board switches power to the fuse box between the DCDC power supply and the supplemental battery depending on whether the DCDC power is on. \
- \
-Connections:\
-SUPP PWR 1 +12V(ideally) - Input from supplemental battery 1 \
-SUPP PWR 2 +12V(ideally) - Input from supplemental battery 2 \
-SUPP PWR MON +12V(ideally) - Output to monitor supplemental power \
-DCDC SUPPLY +12V - Input from the DCDC converter \
-FUSE +12V - Output to fuse box \
- \
-Components that take up vertical or horizontal space: \
-The tallest components are the four connectors that stand 14.76 mm above the board and nothing goes out horizontally \
- \
-LEDs: \
-SUPP_PWR - Indicates whether or not supplemental power is on \
-DCDC_PWR - Indicates whether or not DCDC power is on \
- \
-Mouser BOM: \
-https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=8ba7fa29c3
+Author: Pratyush Patra
+
+This board switches power to the fuse box between the DCDC power supply and the supplemental battery depending on whether the DCDC power is on.
+
+![Power-Secondary](Power-Secondary.png)
+
+## BOM
+[**Interactive BOM (Must download and open in browser)**](ibom.html)
+
+[**Mouser Cart**](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=8ba7fa29c3)
+
+## Connectors
+| # | Name | Type | Ideal Voltage | Notes |
+| - | - | - | - | - |
+| J1  | SUPP PWR MON | 1x02_P3.00mm_Vertical Female | +12V | |
+| J2  | SUPP PWR 1 | 1x02_P7.49mm_Vertical Female |+12V | 14.76 mm tall |
+| J3  | SUPP PWR 2 | 1x02_P7.49mm_Vertical Female | +12V | 14.76 mm tall |
+| J4  | DCDC PWR | 1x02_P7.49mm_Vertical Female | +12V | 14.76 mm tall |
+| J5  | FUSE PWR OUT | 1x02_P7.49mm_Vertical Female | +12V | 14.76 mm tall |
+
+## PCB
+![image](Power-SecondaryLayout.pdf)
+
+## Schematic
+![image](Power-SecondarySchem.pdf)
+
+
+## Additional Notes
+The tallest components are the Power MOSFETs(Q1A1, Q1A2, Q1A3, Q1A4) which are 18.5 mm tall and the connectors which are 14.76 mm tall.
