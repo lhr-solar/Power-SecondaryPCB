@@ -17,4 +17,4 @@ SUPP_PWR - Indicates whether or not supplemental power is on \
 DCDC_PWR - Indicates whether or not DCDC power is on \
  \
 Mouser BOM: \
-https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=513a68f4ef
+https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=8ba7fa29c3
