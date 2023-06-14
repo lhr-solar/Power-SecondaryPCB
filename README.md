@@ -6,7 +6,7 @@ This board switches power to the fuse box between the DCDC power supply and the 
 ![Power-Secondary](Power-Secondary.png)
 
 ## BOM
-[**Interactive BOM (Must download and open in browser)**](ibom.html)
+[**Interactive BOM (Must download and open in browser)**](bom/ibom.html)
 
 [**Mouser Cart**](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=8ba7fa29c3)
 
