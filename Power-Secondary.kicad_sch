@@ -2482,7 +2482,7 @@
     (property "Reference" "J5" (at 142.0876 95.8088 0)
       (effects (font (size 1.27 1.27)) (justify bottom))
     )
-    (property "Value" "FUSE +12V" (at 142.0876 98.1202 0)
+    (property "Value" "PWR OUT" (at 142.0876 98.1202 0)
       (effects (font (size 1.27 1.27)) (justify bottom))
     )
     (property "Footprint" "Connector_Molex:Molex_Sabre_43160-0102_1x02_P7.49mm_Vertical" (at 144.78 100.33 0)

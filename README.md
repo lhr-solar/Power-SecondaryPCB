@@ -17,7 +17,7 @@ This board switches power to the fuse box between the DCDC power supply and the 
 | J2  | SUPP PWR 1 | 1x02_P7.49mm_Vertical Female |+12V | 14.76 mm tall |
 | J3  | SUPP PWR 2 | 1x02_P7.49mm_Vertical Female | +12V | 14.76 mm tall |
 | J4  | DCDC PWR | 1x02_P7.49mm_Vertical Female | +12V | 14.76 mm tall |
-| J5  | FUSE PWR OUT | 1x02_P7.49mm_Vertical Female | +12V | 14.76 mm tall |
+| J5  | PWR OUT | 1x02_P7.49mm_Vertical Female | +12V | 14.76 mm tall |
 
 ## PCB
 ![image](Power-SecondaryLayout.pdf)
