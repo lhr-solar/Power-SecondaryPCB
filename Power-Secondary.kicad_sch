@@ -1247,7 +1247,6 @@
     )
   )
 
-
   (junction (at 73.025 109.855) (diameter 0) (color 0 0 0 0)
     (uuid 21702380-251b-456e-aef0-7c92db5448c1)
   )
@@ -1842,6 +1841,13 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "ZENER_GATE" (shape input) (at 166.37 77.47 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 2c04973b-4d6d-49d8-96cd-e233452a95e0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 152.5676 77.47 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "DCDC_Gate" (shape input) (at 119.38 82.55 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 3b6df89c-7dcf-45ea-9d8b-e1875cfa6ada)
@@ -2155,7 +2161,7 @@
     (property "Reference" "TP3" (at 167.8432 68.072 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Value" "DC_ON" (at 167.8432 70.3834 0)
+    (property "Value" "ZENER_GATE" (at 167.8432 70.3834 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm" (at 171.45 71.12 0)
@@ -2733,8 +2739,8 @@
     (property "Sim.Pins" "1=D 2=G 3=S" (at 129.54 137.795 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 3ab8e7b2-06ac-48eb-aeeb-cd67cf7a36ff))
     (pin "1" (uuid df04276d-db67-4b39-b224-d75dc1127c1f))
+    (pin "2" (uuid 3ab8e7b2-06ac-48eb-aeeb-cd67cf7a36ff))
     (pin "3" (uuid 895cd294-89ff-4a76-950c-fdeafd5d22f2))
     (instances
       (project "Power-Secondary"
