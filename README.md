@@ -8,7 +8,7 @@ This board switches power to the fuse box between the DCDC power supply and the 
 ## BOM
 [**Interactive BOM (Must download and open in browser)**](bom/ibom.html)
 
-[**Mouser Cart**](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=8ba7fa29c3)
+[**Mouser Cart**](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=da938bf7b6)
 
 ## Connectors
 | # | Name | Type | Ideal Voltage | Notes |
