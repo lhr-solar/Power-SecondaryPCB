@@ -37,8 +37,13 @@ The tallest components are the Power MOSFETs(Q1A1, Q1A2, Q1A3, Q1A4) which are 1
 
 ## Current Board Concerns(8.26.2023)
 - If the two Supplemental Batteries are at different voltage, don't want to charge batteries.
-- If the two Supplemental Batteries are above 12V and DCDC is off, don't want to overvolt LV systems.
+- If the two Supplemental Batteries are above 12V and DCDC is off, don't want to overvolt LV systems. 
+        Can tolerate 12.8V.
 - Will the SMD NMOS be able to hand the current even if the datasheet says so?
 - Is the Zener diode selection ok?
-- Are the stitching vias ok?
+- Are the stitching vias ok? 
 - Is the trace path ok at the top of the board(supp gate in particular)?
+
+## Notes
+- Remove ground trace by fixing plane shape
+- Focus on alignment and layout before routing. Twist things around logically before you start routing and routing will just make sense. Make sure you don't have really weird current paths.
