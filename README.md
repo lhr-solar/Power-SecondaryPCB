@@ -36,9 +36,9 @@ This board also interfaces with both the Supplemental Monitoring PCB and Ignitio
 The tallest components are the Power MOSFETs(Q1A1, Q1A2, Q1A3, Q1A4) which are 18.5 mm tall and the connectors which are 14.76 mm tall.
 
 ## Current Board Concerns(8.26.2023)
-If the two Supplemental Batteries are at different voltage, don't want to charge batteries.
-If the two Supplemental Batteries are above 12V and DCDC is off, don't want to overvolt LV systems.
-Will the SMD NMOS be able to hand the current?
-Is the Zener diode selection ok?
-Are the stitching vias ok?
-Is the trace path ok at the top of the board(supp gate in particular)?
+- If the two Supplemental Batteries are at different voltage, don't want to charge batteries.
+- If the two Supplemental Batteries are above 12V and DCDC is off, don't want to overvolt LV systems.
+- Will the SMD NMOS be able to hand the current even if the datasheet says so?
+- Is the Zener diode selection ok?
+- Are the stitching vias ok?
+- Is the trace path ok at the top of the board(supp gate in particular)?
