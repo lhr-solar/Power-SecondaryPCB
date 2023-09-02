@@ -34,10 +34,10 @@ This board also interfaces with both the Supplemental Monitoring PCB and Ignitio
 
 ## Additional Notes
 The tallest components are the Power MOSFETs(Q1A1, Q1A2, Q1A3, Q1A4) which are 18.5 mm tall and the connectors which are 14.76 mm tall.
-Need to order 2oz/ft^2 trace height to sustain 10.8 A
 
 ## Current Board Concerns(8.26.2023)
 - If the two Supplemental Batteries are at different voltage, don't want to charge batteries.
 - If the two Supplemental Batteries are above 12V and DCDC is off, don't want to overvolt LV systems. 
         Can tolerate 12.8V.
 - Should we use heat sinks for the MOSFET or switch to SMD in case we need to increase current draw in the future
+- In future switch to this mosfet, https://www.mouser.com/datasheet/2/196/Infineon_IRFR5305_DataSheet_v01_01_EN-3166466.pdf
