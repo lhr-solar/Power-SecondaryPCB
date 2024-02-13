@@ -41,3 +41,11 @@ The tallest components are the Power MOSFETs(Q1A1, Q1A2, Q1A3, Q1A4) which are 1
         Can tolerate 12.8V.
 - Should we use heat sinks for the MOSFET or switch to SMD in case we need to increase current draw in the future
 - In future switch to this mosfet, https://www.mouser.com/datasheet/2/196/Infineon_IRFR5305_DataSheet_v01_01_EN-3166466.pdf
+- Voltage spikes when we reconnect to supp?
+
+## Power Board Testing Plan
+- Preface: Be very careful when probing components like the MOSFETs and Op Amps. Do not short any pins with the multimeter.
+- Use the logic table on the schematic to test FUSE_OUT in each basic state
+        If the output is not what is expected, probe the Zener gate test point to verify whether the logic mosfets are receiving the proper voltage.
+- Test fuse out as DCDC rises from 0-12V and verify at what voltage the switching occurs(Should be >11V)
+- Test ignition switch connector by connecting the MOSFET gate to either ground or 12V.
