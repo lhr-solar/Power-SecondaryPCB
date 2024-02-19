@@ -2813,9 +2813,9 @@
     (pin "1" (uuid f6e2d47e-7811-479a-92c2-1fa8ff130089))
     (pin "2" (uuid 53d9af77-d2e6-447c-98d4-153e5c5b6d51))
     (pin "6" (uuid 04ed60b5-27de-48df-8c68-34bad371d0f7))
-    (pin "3" (uuid 94435b0f-a144-4c90-9da5-4b33c7b17c2f))
-    (pin "4" (uuid 20167aba-a862-4934-ad54-dafaed63d06d))
-    (pin "5" (uuid 0dddffb7-4b72-4532-bef4-a703abdfbc55))
+    (pin "3" (uuid 94435b0f-a144-4c90-9da5-4b33c7b17c30))
+    (pin "4" (uuid 20167aba-a862-4934-ad54-dafaed63d06e))
+    (pin "5" (uuid 0dddffb7-4b72-4532-bef4-a703abdfbc56))
     (instances
       (project "Power-Secondary"
         (path "/ba21eba1-72a9-489c-9498-a38516b9f252"
