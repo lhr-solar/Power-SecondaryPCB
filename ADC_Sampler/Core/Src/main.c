@@ -57,6 +57,18 @@ static void MX_ADC1_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
+uint16_t average_filter(uint16_t val, uint16_t* buffer, uint8_t size) {
+  static uint8_t i = 0;
+  static uint32_t sum = 0;
+
+  sum += val;
+  sum -= buffer[i];
+  buffer[i] = val;
+  i = (i + 1) % size;
+
+  return sum / size;
+}
+
 /* USER CODE END 0 */
 
 /**
@@ -67,6 +79,14 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
+
+  uint16_t raw;
+  uint16_t buffer[5];
+  uint16_t filter;
+
+  for (int i = 0; i < 5; i++) {
+    buffer[i] = 0;
+  }
 
   /* USER CODE END 1 */
 
@@ -98,6 +118,17 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+
+    HAL_ADC_Start(&hadc1);
+    HAL_ADC_PollForConversion(&hadc1, HAL_MAX_DELAY);
+    raw = HAL_ADC_GetValue(&hadc1);
+
+    filter = average_filter(raw, buffer, 5);
+
+    if (filter > 12) {
+      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_SET);
+      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_RESET);
+    }
 
     /* USER CODE BEGIN 3 */
   }
