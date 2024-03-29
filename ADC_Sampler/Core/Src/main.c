@@ -42,6 +42,8 @@
 /* Private variables ---------------------------------------------------------*/
 ADC_HandleTypeDef hadc1;
 
+uint16_t THRESHHOLD = 12;
+
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -57,7 +59,7 @@ static void MX_ADC1_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
-uint16_t average_filter(uint16_t val, uint16_t* buffer, uint8_t size) {
+uint16_t average_filter(uint16_t val, uint16_t* buffer, uint8_t size) { // Moving average filter for the ADC values. Works by replacing the oldest value in buffer with a new value.
   static uint8_t i = 0;
   static uint32_t sum = 0;
 
@@ -119,15 +121,19 @@ int main(void)
   {
     /* USER CODE END WHILE */
 
-    HAL_ADC_Start(&hadc1);
-    HAL_ADC_PollForConversion(&hadc1, HAL_MAX_DELAY);
-    raw = HAL_ADC_GetValue(&hadc1);
+    // The following code is mena to sample the voltage incoming from the DC-DC convertor
+    // and perform GPIO writes to switch power supplies.
+
+    HAL_ADC_Start(&hadc1); // Starts the ADC conversion for the instance specified by hadc.
+    //&hadc passes the address of hadc (contains configs and info abt ADC)
+    HAL_ADC_PollForConversion(&hadc1, HAL_MAX_DELAY); // This waits for conversion to complete
+    raw = HAL_ADC_GetValue(&hadc1); // gets value
 
     filter = average_filter(raw, buffer, 5);
 
-    if (filter > 12) {
+    if (filter > THRESHHOLD) {
       HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_SET);
-      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_RESET);
+      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, GPIO_PIN_RESET);
     }
 
     /* USER CODE BEGIN 3 */
