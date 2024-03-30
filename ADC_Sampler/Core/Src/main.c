@@ -59,16 +59,13 @@ static void MX_ADC1_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
-uint16_t average_filter(uint16_t val, uint16_t* buffer, uint8_t size) { // Moving average filter for the ADC values. Works by replacing the oldest value in buffer with a new value.
-  static uint8_t i = 0;
-  static uint32_t sum = 0;
+uint16_t average_filter(uint16_t val, uint16_t* buffer, uint16_t size, uint16_t *i, uint16_t *sum) { // Moving average filter for the ADC values. Works by replacing the oldest value in buffer with a new value.
+  *sum += val;
+  *sum -= buffer[*i];
+  buffer[*i] = val;
+  *i = (*i + 1) % size;
 
-  sum += val;
-  sum -= buffer[i];
-  buffer[i] = val;
-  i = (i + 1) % size;
-
-  return sum / size;
+  return *sum / size;
 }
 
 /* USER CODE END 0 */
@@ -85,6 +82,8 @@ int main(void)
   uint16_t raw;
   uint16_t buffer[5];
   uint16_t filter;
+  uint16_t sum = 0;
+  uint16_t i = 0;
 
   for (int i = 0; i < 5; i++) {
     buffer[i] = 0;
@@ -129,11 +128,15 @@ int main(void)
     HAL_ADC_PollForConversion(&hadc1, HAL_MAX_DELAY); // This waits for conversion to complete
     raw = HAL_ADC_GetValue(&hadc1); // gets value
 
-    filter = average_filter(raw, buffer, 5);
+    filter = average_filter(raw, buffer, 5, &i, &sum);
 
     if (filter > THRESHHOLD) {
       HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_SET);
       HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, GPIO_PIN_RESET);
+    }
+    else {
+      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, GPIO_PIN_SET);
+      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_RESET);
     }
 
     /* USER CODE BEGIN 3 */
