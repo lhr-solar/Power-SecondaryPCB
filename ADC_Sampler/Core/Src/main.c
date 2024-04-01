@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include <stdio.h>
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -26,7 +27,11 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-
+typedef enum Gate
+{
+    supp = 0,
+    dcdc = 1
+} Gate;
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -124,26 +129,31 @@ int main(void)
     // and perform GPIO writes to switch power supplies.
 
     HAL_ADC_Start(&hadc1); // Starts the ADC conversion for the instance specified by hadc.
-    //&hadc passes the address of hadc (contains configs and info abt ADC)
+    //&hadc passes the address of adc we want to use (contains configs and info abt ADC)
     HAL_ADC_PollForConversion(&hadc1, HAL_MAX_DELAY); // This waits for conversion to complete
     raw = HAL_ADC_GetValue(&hadc1); // gets value
-
     filter = average_filter(raw, buffer, 5, &i, &sum);
 
-    if (filter > THRESHHOLD) {
-      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_SET);
-      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, GPIO_PIN_RESET);
+    if (filter > 2000) {
+      HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, 1);
+      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, 0); //Turn off Supplemental Connection
+      for(volatile int x = 0; x < 50; x++){
+      } 
+      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, 1); //Turn on DCDC Connection
     }
     else {
-      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, GPIO_PIN_SET);
-      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_RESET);
+      HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, 0);
+      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, 0); //Turn off DCDC Connection
+      for(volatile int x = 0; x < 100; x++){
+        x++;
+      } 
+      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, 1); //Turn on Supplemental Connection
     }
 
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
 }
-
 /**
   * @brief System Clock Configuration
   * @retval None
@@ -286,7 +296,7 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pin = GPIO_PIN_6|GPIO_PIN_7;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_MEDIUM;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
   /*Configure GPIO pin : VCP_RX_Pin */
