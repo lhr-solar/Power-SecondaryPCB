@@ -27,11 +27,7 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-typedef enum Gate
-{
-    supp = 0,
-    dcdc = 1
-} Gate;
+
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
