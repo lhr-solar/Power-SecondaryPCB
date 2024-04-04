@@ -3,7 +3,9 @@
 *-bak
 *.bck
 *.swp
+*.lck
 *-save.*
+.vscode/*
 /Power-Secondary-backups/*
 
 */build
