@@ -614,6 +614,18 @@
     [
       "ba21eba1-72a9-489c-9498-a38516b9f252",
       "Root"
+    ],
+    [
+      "6e50724d-fa2c-4152-a095-2c53e94da30f",
+      "Nucleo-L432KC"
+    ],
+    [
+      "3e7100ec-df3a-4713-932e-67c755937c6c",
+      "testpoints"
+    ],
+    [
+      "b5d41404-aebd-41dd-aaca-e666f6dd2d9d",
+      "nmos"
     ]
   ],
   "text_variables": {}
