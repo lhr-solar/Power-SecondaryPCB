@@ -698,6 +698,14 @@
     [
       "b5d41404-aebd-41dd-aaca-e666f6dd2d9d",
       "nmos"
+    ],
+    [
+      "90d02eda-4789-4469-8b12-4ac969592827",
+      "FuseOut_switch"
+    ],
+    [
+      "a374fd6f-0a36-45bd-8127-14ba5f79f43c",
+      "BPSOut_switch"
     ]
   ],
   "text_variables": {}

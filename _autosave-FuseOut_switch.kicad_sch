@@ -1,0 +1,2948 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a2335c0d-2473-46b0-8628-25ee4f37206d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Fuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Simulation_SPICE:NMOS"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q3"
+				(at 6.35 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NMOS"
+				(at 6.35 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-manual.pdf"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "NMOS"
+				(at 0 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "NMOS_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GNDS"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDS"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDS_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDS_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GNDS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "utsvt-powersupp:SUP90P06-PCHANNEL-MOSFET"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SUP90P06-PCHANNEL-MOSFET"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "TO254P483X1016X1994-3P"
+				(at 11.43 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-AUIRF4905-DS-v01_02-EN.pdf?fileId=5546d462533600a4015355acc8c413be"
+				(at 11.43 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "AUIRF4905 P-Channel MOSFET, 74 A, 55 V HEXFET, 3-Pin TO-220AB Infineon"
+				(at 11.43 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "4.83"
+				(at 11.43 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "942-AUIRF4905"
+				(at 11.43 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/AUIRF4905?qs=z4XQqHkgcr1Dv6LERHGgXg%3D%3D"
+				(at 11.43 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Infineon"
+				(at 11.43 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AUIRF4905"
+				(at 11.43 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "SUP90P06-PCHANNEL-MOSFET_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SUP90P06-PCHANNEL-MOSFET_0_1"
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.842 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.032) (xy 5.842 3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.588) (xy 5.842 4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.842 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 6.604 3.048) (xy 6.604 2.032) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 6.35 2.54)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 112.649 108.204)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b7aef87-0b08-43da-9b6e-3e34ae020017")
+	)
+	(junction
+		(at 118.364 108.204)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "197a60d9-67af-4b0a-b618-11da7b0ba277")
+	)
+	(junction
+		(at 99.314 78.994)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ddafe88-5c46-41b0-a9b5-aa8fa34377e2")
+	)
+	(junction
+		(at 139.319 108.204)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8428478b-f13d-4d1f-b246-aa4be6fdf1c1")
+	)
+	(junction
+		(at 126.619 108.204)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b566e600-17e3-4ee4-bc84-8e0722b77eb7")
+	)
+	(junction
+		(at 126.619 120.269)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d90c010a-86f1-48c5-a1f7-221edd21bd07")
+	)
+	(junction
+		(at 106.934 98.679)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db7386d5-3d13-45cd-bacb-1bfbdfe1f0c3")
+	)
+	(junction
+		(at 142.494 80.899)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f491f676-25ec-472d-96ac-418957f216ec")
+	)
+	(wire
+		(pts
+			(xy 106.934 108.204) (xy 112.649 108.204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a0e535-289f-494b-a878-d65d3e5184e3")
+	)
+	(wire
+		(pts
+			(xy 164.719 110.744) (xy 164.719 118.999)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d61288-f4cc-47db-a866-caf4e292d4f4")
+	)
+	(wire
+		(pts
+			(xy 118.364 103.124) (xy 118.364 108.204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e552980-5c14-449e-82c2-1aebc712c813")
+	)
+	(wire
+		(pts
+			(xy 112.649 118.999) (xy 112.649 120.269)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3c8441-43d2-4085-815b-313204bb85cc")
+	)
+	(wire
+		(pts
+			(xy 126.619 108.204) (xy 126.619 111.379)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ead46d8-5311-4ad1-827e-5009e15e6220")
+	)
+	(wire
+		(pts
+			(xy 106.934 61.722) (xy 106.934 64.389)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb38ab6-480a-4e69-9a0f-af5f811bdb9a")
+	)
+	(wire
+		(pts
+			(xy 126.619 118.999) (xy 126.619 120.269)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42641b82-2f7e-4903-bb70-e336f9b75b51")
+	)
+	(wire
+		(pts
+			(xy 106.934 79.629) (xy 106.934 80.899)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a987fef-0f9d-4f93-b30c-f5db5ed4e942")
+	)
+	(wire
+		(pts
+			(xy 150.114 98.044) (xy 150.114 98.679)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea9e1a4-8987-4b07-ba04-6752b2c84c6e")
+	)
+	(wire
+		(pts
+			(xy 126.619 108.204) (xy 139.319 108.204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f362c09-70d8-4b62-8eab-a54142d832cf")
+	)
+	(wire
+		(pts
+			(xy 126.619 120.269) (xy 139.319 120.269)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "564e4efc-fb4d-4fa1-8bb1-3455442cf5cd")
+	)
+	(wire
+		(pts
+			(xy 118.364 108.204) (xy 126.619 108.204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bda4712-a0d0-4646-82b0-ab9ccc053bbf")
+	)
+	(wire
+		(pts
+			(xy 112.649 120.269) (xy 126.619 120.269)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f70be40-dc67-485f-8fb1-9c004ae9aa92")
+	)
+	(wire
+		(pts
+			(xy 139.319 108.204) (xy 139.319 111.379)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6601e478-7952-4ac6-9d16-43c99c7f09cb")
+	)
+	(wire
+		(pts
+			(xy 150.114 81.534) (xy 150.114 82.804)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c81852-c435-4cbd-9d73-66bf5e8b492d")
+	)
+	(wire
+		(pts
+			(xy 106.934 98.679) (xy 150.114 98.679)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76e578cb-879a-4987-9c29-a8fdbc76abd3")
+	)
+	(wire
+		(pts
+			(xy 139.319 108.204) (xy 169.164 108.204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc3df1e-2f7e-4f4e-b5e9-b1d5c844e754")
+	)
+	(wire
+		(pts
+			(xy 140.589 80.899) (xy 142.494 80.899)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "892b0017-410b-4d1b-8814-29899e090e46")
+	)
+	(wire
+		(pts
+			(xy 150.114 61.214) (xy 150.114 66.294)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91319672-75b4-4b7f-b6ec-eaaad989c9ea")
+	)
+	(wire
+		(pts
+			(xy 139.319 120.269) (xy 139.319 118.999)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93659623-21b3-412d-8e4c-7d20de003f63")
+	)
+	(wire
+		(pts
+			(xy 112.649 108.204) (xy 118.364 108.204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1fda0b2-126e-4c3a-b7a5-921ef448fdda")
+	)
+	(wire
+		(pts
+			(xy 164.719 110.744) (xy 169.164 110.744)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac59414a-4562-482e-994c-c52e3f62d9dc")
+	)
+	(wire
+		(pts
+			(xy 96.774 78.994) (xy 99.314 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbff43d0-6ff9-42c3-8398-4ce6c978c665")
+	)
+	(wire
+		(pts
+			(xy 99.314 78.994) (xy 99.314 91.059)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d3f434-4e9c-49a6-a171-2be3253a38e6")
+	)
+	(wire
+		(pts
+			(xy 142.494 80.899) (xy 142.494 92.964)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca7ff2eb-c7c5-4134-a4f4-3ceac0068285")
+	)
+	(wire
+		(pts
+			(xy 99.314 69.469) (xy 99.314 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41d04e5-1790-4ff8-9741-d3c2165e9351")
+	)
+	(wire
+		(pts
+			(xy 106.934 98.679) (xy 106.934 96.139)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd94121d-d156-4b2d-a8ad-95828720d0d0")
+	)
+	(wire
+		(pts
+			(xy 142.494 71.374) (xy 142.494 80.899)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f25ac0cb-8a6f-48ab-88b2-4b4e933f43ff")
+	)
+	(wire
+		(pts
+			(xy 164.719 129.159) (xy 164.719 130.429)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f73f9aca-201a-45ba-ba51-863ce1b55572")
+	)
+	(wire
+		(pts
+			(xy 126.619 120.269) (xy 126.619 122.809)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7481f13-71c2-4cad-b1f8-b1532acc72cf")
+	)
+	(wire
+		(pts
+			(xy 106.934 108.204) (xy 106.934 106.299)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f97fdd85-f51d-453e-9925-7c76efce4872")
+	)
+	(wire
+		(pts
+			(xy 150.114 61.214) (xy 151.384 61.214)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd65df9a-b2a0-47d2-b16f-4d95f652ef22")
+	)
+	(wire
+		(pts
+			(xy 112.649 108.204) (xy 112.649 111.379)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7d475d-b681-4179-8503-c5e9b68e7e60")
+	)
+	(text "Extra caps in case we\nneed them for stabilization\n\n"
+		(exclude_from_sim no)
+		(at 113.284 134.239 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4239eac0-9c62-4e8c-ac35-7dd55bc14dae")
+	)
+	(global_label "LV_EN"
+		(shape input)
+		(at 157.099 124.079 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45284a70-1cdf-412f-916e-21f21e328c07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.2042 124.079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT_2"
+		(shape input)
+		(at 129.159 98.679 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67492f7a-da8a-4a49-ae80-16a8e92b3bbb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.159 90.5423 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DRAIN_2"
+		(shape input)
+		(at 164.719 115.189 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf4f5269-61a2-4864-994d-f5d2811a9510")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.791 115.189 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BPS{slash}Fan OUT"
+		(shape input)
+		(at 118.364 103.124 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f27fa35e-a20e-4027-b63c-06c755107b0e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.7578 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "DCDC_PWR"
+		(shape input)
+		(at 151.384 61.214 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80a01b59-7ed6-476e-a195-c680871546eb")
+	)
+	(hierarchical_label "SUPP_Gate"
+		(shape input)
+		(at 96.774 78.994 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "911bb524-4f53-4013-ba4d-ac048e196a1e")
+	)
+	(hierarchical_label "SUPP_PWR"
+		(shape input)
+		(at 106.934 61.722 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f27dffce-0540-4a05-957d-0cc7b4d0adf5")
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 106.934 102.489 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1670d3fb-1bb0-4674-99db-c867604ef7c1")
+		(property "Reference" "F5"
+			(at 110.744 103.759 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 110.744 101.219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
+			(at 105.156 102.489 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/215/3568-742601.pdf"
+			(at 106.934 102.489 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.934 102.489 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 106.934 102.489 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc418185-d676-469b-b41b-17eb0b8bfe31")
+		)
+		(pin "2"
+			(uuid "c8328018-b68f-4534-aaf5-6510a239932f")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/90d02eda-4789-4469-8b12-4ac969592827"
+					(reference "F5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "utsvt-powersupp:SUP90P06-PCHANNEL-MOSFET")
+		(at 99.314 69.469 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "287e6d3f-a9f0-4c40-a50b-50c169bf5151")
+		(property "Reference" "Q1A9"
+			(at 115.062 73.279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRFU5305PbF"
+			(at 115.062 70.739 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UTSVT_PowerSupp:SUP90P06-PCHAN-ENH-PWR-MOSFET"
+			(at 110.744 68.199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/73010/sup90p06-09l.pdf"
+			(at 110.744 65.659 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.744 63.119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.83"
+			(at 110.744 60.579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 110.744 58.039 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 110.744 55.499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 110.744 52.959 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 110.744 50.419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 99.314 69.469 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 99.314 69.469 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 99.314 69.469 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "904dafc9-ca67-41fc-8f8d-f8e4ff2fddb5")
+		)
+		(pin "2"
+			(uuid "c9460958-0a10-4411-90db-0ea69cbefacc")
+		)
+		(pin "3"
+			(uuid "97932b8a-69c8-461a-aa9a-376b507db1a7")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/90d02eda-4789-4469-8b12-4ac969592827"
+					(reference "Q1A9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 126.619 115.189 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e5451bc-c9fb-40ca-ab74-243947d8a884")
+		(property "Reference" "C9"
+			(at 130.429 113.6649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 130.429 116.2049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 127.5842 118.999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/212/KEM_C1006_X5R_SMD-1103249.pdf"
+			(at 126.619 115.189 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 126.619 115.189 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcce186e-49af-4b50-ad83-3a85aa60c247")
+		)
+		(pin "2"
+			(uuid "bb380d85-35b0-476e-996a-1f8b320ce33e")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/90d02eda-4789-4469-8b12-4ac969592827"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 112.649 115.189 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62051cea-14d5-48cc-b9e2-2d96efe80476")
+		(property "Reference" "C8"
+			(at 116.459 113.6649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 116.459 116.2049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 113.6142 118.999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/212/KEM_C1006_X5R_SMD-1103249.pdf"
+			(at 112.649 115.189 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 112.649 115.189 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3db50c16-7fd2-4a81-8dd6-1b47347205d8")
+		)
+		(pin "2"
+			(uuid "1808f1da-7ed4-4307-a283-3dd1d21d8fe1")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/90d02eda-4789-4469-8b12-4ac969592827"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "utsvt-powersupp:SUP90P06-PCHANNEL-MOSFET")
+		(at 142.494 71.374 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e41dc96-1d5a-4bdd-b98e-cea70ed07072")
+		(property "Reference" "Q1A10"
+			(at 157.861 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRFU5305PbF"
+			(at 158.496 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UTSVT_PowerSupp:SUP90P06-PCHAN-ENH-PWR-MOSFET"
+			(at 153.924 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/73010/sup90p06-09l.pdf"
+			(at 153.924 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.924 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.83"
+			(at 153.924 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 153.924 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 153.924 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 153.924 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 153.924 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 142.494 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 142.494 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 142.494 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d15c60e-17a5-40ad-8dae-c60d94839170")
+		)
+		(pin "2"
+			(uuid "ecb846aa-cdaf-482c-8a10-b1b8fb8aabdd")
+		)
+		(pin "3"
+			(uuid "245d5035-3f64-45e1-ba6b-e425ab7b982f")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/90d02eda-4789-4469-8b12-4ac969592827"
+					(reference "Q1A10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "utsvt-powersupp:SUP90P06-PCHANNEL-MOSFET")
+		(at 142.494 92.964 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "784dfde0-2b42-4f08-ae43-c6e944cb3f45")
+		(property "Reference" "Q1A12"
+			(at 157.607 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRFU5305PbF"
+			(at 158.242 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UTSVT_PowerSupp:SUP90P06-PCHAN-ENH-PWR-MOSFET"
+			(at 153.924 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/73010/sup90p06-09l.pdf"
+			(at 153.924 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.924 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.83"
+			(at 153.924 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 153.924 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 153.924 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 153.924 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 153.924 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 142.494 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 142.494 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 142.494 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efbaf68e-26e5-4d5a-89a2-53075de391b4")
+		)
+		(pin "2"
+			(uuid "4570ac30-5b75-4e7f-9007-8d9401157d70")
+		)
+		(pin "3"
+			(uuid "e355df77-09ae-48bf-b137-9c13a13f2834")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/90d02eda-4789-4469-8b12-4ac969592827"
+					(reference "Q1A12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 164.719 130.429 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "915f417d-ce8f-49cb-a708-33f23d752fc9")
+		(property "Reference" "#PWR019"
+			(at 164.719 136.779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 164.719 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 164.719 130.429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 164.719 130.429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 164.719 130.429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 164.719 130.429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 164.719 130.429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+"
+			(at 164.719 130.429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "dc=\"\""
+			(at 164.719 130.429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9109fbe-6d45-4837-8e8e-49fb463ecbbf")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/90d02eda-4789-4469-8b12-4ac969592827"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 139.319 115.189 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1dfb2d5-e1e6-4961-8080-c4e4cf1fa90b")
+		(property "Reference" "C10"
+			(at 143.129 113.6649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 143.129 116.2049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 140.2842 118.999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/212/KEM_C1006_X5R_SMD-1103249.pdf"
+			(at 139.319 115.189 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.319 115.189 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1f24306-dae5-4454-b727-6ec0f58d107d")
+		)
+		(pin "2"
+			(uuid "d562b222-df6e-496e-b546-291bb92042f8")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/90d02eda-4789-4469-8b12-4ac969592827"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 126.619 122.809 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b54d7e9d-aa69-4020-912b-ba4ce16d64e5")
+		(property "Reference" "#PWR017"
+			(at 126.619 129.159 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 126.746 127.2032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 126.619 122.809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 126.619 122.809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 126.619 122.809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 126.619 122.809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 126.619 122.809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+"
+			(at 126.619 122.809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "dc=\"\""
+			(at 126.619 122.809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30ac8938-582c-4893-a4b3-06afd6479323")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/90d02eda-4789-4469-8b12-4ac969592827"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 174.244 108.204 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9a42162-c480-4291-b528-d6808ee041fd")
+		(property "Reference" "J9"
+			(at 179.324 108.9406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Fan OUT"
+			(at 179.324 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Sabre_43160-0102_1x02_P7.49mm_Vertical"
+			(at 174.244 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/538-43160-0102"
+			(at 174.244 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 174.244 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 174.244 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 174.244 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 174.244 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "dc=\"\""
+			(at 174.244 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0a0edcf-9753-4e79-a7b5-f80eab020a0e")
+		)
+		(pin "2"
+			(uuid "53501a2b-d133-40f1-87ba-c4bbf1b6223c")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/90d02eda-4789-4469-8b12-4ac969592827"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "utsvt-powersupp:SUP90P06-PCHANNEL-MOSFET")
+		(at 99.314 91.059 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcbe1a06-a85c-4e36-85d8-7b6e7e22f868")
+		(property "Reference" "Q1A11"
+			(at 114.808 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRFU5305PbF"
+			(at 114.808 86.741 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UTSVT_PowerSupp:SUP90P06-PCHAN-ENH-PWR-MOSFET"
+			(at 110.744 92.329 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/73010/sup90p06-09l.pdf"
+			(at 110.744 94.869 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.744 97.409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.83"
+			(at 110.744 99.949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 110.744 102.489 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 110.744 105.029 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 110.744 107.569 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 110.744 110.109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 99.314 91.059 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 99.314 91.059 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 99.314 91.059 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9e6563f-c723-41f6-8296-1270492509fc")
+		)
+		(pin "2"
+			(uuid "a95fbe6a-fbde-4aea-aa31-7c44e1284711")
+		)
+		(pin "3"
+			(uuid "1dd8c9a3-2700-433f-a451-f1ae8960994a")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/90d02eda-4789-4469-8b12-4ac969592827"
+					(reference "Q1A11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 162.179 124.079 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c644c00d-dd29-4a41-a89b-7493238cd7e5")
+		(property "Reference" "Q5"
+			(at 168.529 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FDD86250-F085"
+			(at 168.529 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_PowerSupp:FDD13AN06A0F085"
+			(at 167.259 121.539 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/308/1/FDD86250_F085_D-2312165.pdf"
+			(at 162.179 136.779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.179 124.079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 162.179 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 162.179 143.129 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 162.179 139.319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "113d8c39-ac73-41b4-8aa7-003672993d28")
+		)
+		(pin "2"
+			(uuid "e635f5f7-bac8-47b5-b2ae-91193c864ee8")
+		)
+		(pin "3"
+			(uuid "5a453ec2-9e7d-4808-a9a9-18eee464cba5")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/90d02eda-4789-4469-8b12-4ac969592827"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
