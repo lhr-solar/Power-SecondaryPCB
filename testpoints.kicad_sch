@@ -600,9 +600,9 @@
 		)
 		(uuid "3c4a7ca2-1067-4c89-b6dc-9d2f90bdb7bf")
 	)
-	(hierarchical_label "Supp_Gate"
+	(hierarchical_label "FUSEOUT_Supp_Gate"
 		(shape input)
-		(at 166.624 111.252 180)
+		(at 177.038 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -612,9 +612,9 @@
 		)
 		(uuid "461f04c7-5e5a-4b05-98d1-3fb785a7d2dc")
 	)
-	(hierarchical_label "Supp_Gate2"
+	(hierarchical_label "BPS_Supp_Gate"
 		(shape input)
-		(at 166.878 120.65 180)
+		(at 177.292 121.158 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -636,7 +636,7 @@
 		)
 		(uuid "596779a1-1099-454c-86fe-53f057c82533")
 	)
-	(hierarchical_label "DCDC_Gate"
+	(hierarchical_label "FUSEOUT_DCDC_Gate"
 		(shape input)
 		(at 139.954 111.252 180)
 		(fields_autoplaced yes)
@@ -648,7 +648,7 @@
 		)
 		(uuid "b40706c4-f87d-42d7-954f-186995f29ee7")
 	)
-	(hierarchical_label "DCDC_Gate2"
+	(hierarchical_label "BPS_DCDC_Gate"
 		(shape input)
 		(at 140.208 120.65 180)
 		(fields_autoplaced yes)
@@ -1055,7 +1055,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 166.624 111.252 0)
+		(at 177.038 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1063,7 +1063,7 @@
 		(dnp no)
 		(uuid "64b54ffd-0ab8-4ff0-b055-53f1e5d97e4c")
 		(property "Reference" "TP5"
-			(at 168.0972 108.204 0)
+			(at 178.5112 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1072,7 +1072,7 @@
 			)
 		)
 		(property "Value" "Supp_Gate"
-			(at 168.0972 110.5154 0)
+			(at 178.5112 111.0234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1081,7 +1081,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 171.704 111.252 0)
+			(at 182.118 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1090,7 +1090,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.704 111.252 0)
+			(at 182.118 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1099,7 +1099,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.624 111.252 0)
+			(at 177.038 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1108,7 +1108,7 @@
 			)
 		)
 		(property "Sim.Device" "SPICE"
-			(at 166.624 111.252 0)
+			(at 177.038 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1280,7 +1280,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 166.878 120.65 0)
+		(at 177.292 121.158 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1288,7 +1288,7 @@
 		(dnp no)
 		(uuid "8f229157-cd61-4a77-beab-b903962586fe")
 		(property "Reference" "TP7"
-			(at 168.3512 117.602 0)
+			(at 178.7652 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1297,7 +1297,7 @@
 			)
 		)
 		(property "Value" "Supp_Gate2"
-			(at 168.3512 119.9134 0)
+			(at 178.7652 120.4214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1306,7 +1306,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 171.958 120.65 0)
+			(at 182.372 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1315,7 +1315,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.958 120.65 0)
+			(at 182.372 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1324,7 +1324,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.878 120.65 0)
+			(at 177.292 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1333,7 +1333,7 @@
 			)
 		)
 		(property "Sim.Device" "SPICE"
-			(at 166.878 120.65 0)
+			(at 177.292 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)

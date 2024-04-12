@@ -1538,6 +1538,18 @@
 		)
 		(uuid "9927feed-9325-4769-afd5-51d96af50f3b")
 	)
+	(hierarchical_label "Fuse_Out"
+		(shape output)
+		(at 161.036 108.204 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb39ee75-fff8-48af-aa39-91e88f145606")
+	)
 	(hierarchical_label "DCDC_Gate"
 		(shape input)
 		(at 140.208 81.026 180)

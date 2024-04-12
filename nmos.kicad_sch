@@ -958,7 +958,7 @@
 		)
 		(uuid "fe9e57dd-571a-4de5-b455-85d6e3ff5948")
 	)
-	(hierarchical_label "DCDC_Drive"
+	(hierarchical_label "FUSEOUT_DCDC_Drive"
 		(shape input)
 		(at 120.396 110.49 180)
 		(fields_autoplaced yes)
@@ -970,7 +970,7 @@
 		)
 		(uuid "2e4a569f-2698-4fb4-922c-f924d1c4fb79")
 	)
-	(hierarchical_label "Supp_Drive"
+	(hierarchical_label "FUSEOUT_Supp_Drive"
 		(shape input)
 		(at 71.12 110.49 180)
 		(fields_autoplaced yes)
@@ -994,7 +994,7 @@
 		)
 		(uuid "42fc0fdb-d1fe-4076-8cd9-9248576a19a3")
 	)
-	(hierarchical_label "Supp_Gate"
+	(hierarchical_label "FUSEOUT_Supp_Gate"
 		(shape output)
 		(at 83.82 104.14 0)
 		(fields_autoplaced yes)
@@ -1006,7 +1006,7 @@
 		)
 		(uuid "480f5c03-d298-4021-8030-34d10ec14bf6")
 	)
-	(hierarchical_label "DCDC_Gate2"
+	(hierarchical_label "BPS_DCDC_Gate"
 		(shape output)
 		(at 227.33 106.68 0)
 		(fields_autoplaced yes)
@@ -1018,7 +1018,7 @@
 		)
 		(uuid "4c2450c4-4d5f-47d2-9a9d-4070f27d9129")
 	)
-	(hierarchical_label "DCDC_Gate"
+	(hierarchical_label "FUSEOUT_DCDC_Gate"
 		(shape output)
 		(at 134.112 104.14 0)
 		(fields_autoplaced yes)
@@ -1030,7 +1030,7 @@
 		)
 		(uuid "511fe97c-e3b7-4392-a9ea-ce146847f85d")
 	)
-	(hierarchical_label "Supp_Gate2"
+	(hierarchical_label "BPS_Supp_Gate"
 		(shape output)
 		(at 182.88 106.172 0)
 		(fields_autoplaced yes)
@@ -1042,7 +1042,7 @@
 		)
 		(uuid "5234c633-74f3-44f5-a8fe-59cd76e525c4")
 	)
-	(hierarchical_label "Supp_Drive2"
+	(hierarchical_label "BPS_Supp_Drive"
 		(shape input)
 		(at 168.91 112.522 180)
 		(fields_autoplaced yes)
@@ -1054,7 +1054,7 @@
 		)
 		(uuid "56b1d9e1-e529-4288-aaa0-9f07a8442eed")
 	)
-	(hierarchical_label "DCDC_Drive2"
+	(hierarchical_label "BPS_DCDC_Drive"
 		(shape input)
 		(at 214.63 113.03 180)
 		(fields_autoplaced yes)
