@@ -1739,16 +1739,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 88.9) (xy 111.76 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16efb218-4335-4e2c-b014-77f4e274b613")
-	)
-	(wire
-		(pts
 			(xy 161.29 114.3) (xy 161.29 116.205)
 		)
 		(stroke
@@ -1776,16 +1766,6 @@
 			(type default)
 		)
 		(uuid "2a66afd3-b014-49c0-9f90-980f0a092d6f")
-	)
-	(wire
-		(pts
-			(xy 115.57 91.44) (xy 111.76 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a482b24-d9e4-4bb4-83da-3077d0b7d384")
 	)
 	(wire
 		(pts
@@ -1819,6 +1799,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 88.9) (xy 144.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a5d6d7-dd2a-4544-a871-685c73e11813")
+	)
+	(wire
+		(pts
 			(xy 147.32 76.2) (xy 147.32 73.66)
 		)
 		(stroke
@@ -1826,6 +1816,16 @@
 			(type default)
 		)
 		(uuid "75863730-cb55-4ac8-a63a-8226c74d562d")
+	)
+	(wire
+		(pts
+			(xy 140.97 91.44) (xy 144.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "818ce139-cbd6-4ca1-b1c5-db9fc7b6eaa3")
 	)
 	(wire
 		(pts
@@ -1959,6 +1959,18 @@
 		)
 		(uuid "04a96b31-1164-45e2-8a0f-3649556440d4")
 	)
+	(hierarchical_label "Supp_Drive2"
+		(shape output)
+		(at 111.76 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0738b3db-faf5-4d12-91be-f63ad4c0ccb9")
+	)
 	(hierarchical_label "DCDC_PWR"
 		(shape input)
 		(at 161.29 104.775 0)
@@ -1971,19 +1983,19 @@
 		)
 		(uuid "a5d6c639-25f8-40d7-8fd0-616f64871c39")
 	)
-	(hierarchical_label "DCDC_Drive2"
+	(hierarchical_label "DCDC_Drive"
 		(shape output)
-		(at 111.76 91.44 180)
+		(at 144.78 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "b7379ab3-a9ce-4234-8a3c-0a0271109cce")
+		(uuid "cafe09f4-58a3-48dd-8439-2595d491c0a2")
 	)
-	(hierarchical_label "DCDC_Drive"
+	(hierarchical_label "DCDC_Drive2"
 		(shape output)
 		(at 111.76 96.52 180)
 		(fields_autoplaced yes)
@@ -1993,31 +2005,19 @@
 			)
 			(justify right)
 		)
-		(uuid "cafe09f4-58a3-48dd-8439-2595d491c0a2")
+		(uuid "e002dae6-8182-4329-8e3d-810687bab75f")
 	)
 	(hierarchical_label "Supp_Drive"
 		(shape output)
-		(at 111.76 93.98 180)
+		(at 144.78 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e3090559-c8da-4900-a917-7e6aaaec8685")
-	)
-	(hierarchical_label "Supp_Drive2"
-		(shape output)
-		(at 111.76 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f517e737-8d36-4adb-9f34-636dedc1224e")
 	)
 	(symbol
 		(lib_id "Device:R")
