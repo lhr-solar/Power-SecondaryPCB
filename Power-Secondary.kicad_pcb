@@ -198,7 +198,7 @@
 		(descr "Molex Sabre Power Connector, 43160-0102, 2 Pins per row (http://www.molex.com/pdm_docs/sd/431600105_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Sabre side entry")
 		(property "Reference" "J5"
-			(at 3.875 5.195 90)
+			(at -8.2 -7.8 180)
 			(layer "F.SilkS")
 			(uuid "8fa69f2a-5dbb-4406-98ef-5a6a5224bb1f")
 			(effects
@@ -904,7 +904,7 @@
 		(descr "UMT6_1")
 		(tags "MOSFET (N-Channel)")
 		(property "Reference" "Q3"
-			(at 0 0 90)
+			(at 0 -2.65 180)
 			(layer "F.SilkS")
 			(uuid "46b98b29-639b-464f-a44b-5aae5cd58c2b")
 			(effects
@@ -1230,7 +1230,7 @@
 		(descr "TO-220AB-ren1")
 		(tags "Transistor")
 		(property "Reference" "Q1A1"
-			(at 0 0 0)
+			(at 9.13 -0.65 90)
 			(layer "F.SilkS")
 			(uuid "7a484e6b-ced5-4706-9de9-20fbaa24f124")
 			(effects
@@ -1759,7 +1759,7 @@
 		(descr "Molex Sabre Power Connector, 43160-0102, 2 Pins per row (http://www.molex.com/pdm_docs/sd/431600105_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Sabre side entry")
 		(property "Reference" "J2"
-			(at 3.75 -10.7 -90)
+			(at 15.595 -2.61 0)
 			(layer "F.SilkS")
 			(uuid "21907fb2-7e0b-4e8a-b9d3-e3ae2125c249")
 			(effects
@@ -4235,7 +4235,7 @@
 		(descr "TO-220AB-ren1")
 		(tags "Transistor")
 		(property "Reference" "Q1A9"
-			(at 0 0 0)
+			(at 9.13 -0.45 90)
 			(layer "F.SilkS")
 			(uuid "827bc179-9dd5-41d4-affb-6d029a3cb48c")
 			(effects
@@ -4963,7 +4963,7 @@
 		(descr "Molex Sabre Power Connector, 43160-0102, 2 Pins per row (http://www.molex.com/pdm_docs/sd/431600105_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Sabre side entry")
 		(property "Reference" "J9"
-			(at 3.75 -10.7 180)
+			(at 3.65 5.16 180)
 			(layer "F.SilkS")
 			(uuid "6701b3f6-2922-4a82-95bf-928ad643a1d6")
 			(effects
@@ -5421,7 +5421,7 @@
 		(descr "TO-220AB-ren1")
 		(tags "Transistor")
 		(property "Reference" "Q1A10"
-			(at 0 0 0)
+			(at 9.08 -0.545 90)
 			(layer "F.SilkS")
 			(uuid "7c96b9ff-5e8f-4fff-8f7d-481cd26edc6c")
 			(effects
@@ -5767,7 +5767,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 1.7 180)
+			(at 0 -1.6 180)
 			(layer "F.SilkS")
 			(uuid "ab466c77-e7a7-4d94-9632-8a81cac116e5")
 			(effects
@@ -6187,7 +6187,7 @@
 		(descr "fuse holder, car blade fuse mini, http://www.keyelco.com/product-pdf.cfm?p=306")
 		(tags "car blade fuse mini")
 		(property "Reference" "F2"
-			(at 4.96 -2.67 -90)
+			(at 14.06 1.81 0)
 			(layer "F.SilkS")
 			(uuid "1ffc71aa-f820-44ec-a3a9-c920e97db79b")
 			(effects
@@ -7240,7 +7240,7 @@
 		(descr "Molex Sabre Power Connector, 43160-0102, 2 Pins per row (http://www.molex.com/pdm_docs/sd/431600105_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Sabre side entry")
 		(property "Reference" "J1"
-			(at 3.75 -10.7 -90)
+			(at 15.7 -2.215 0)
 			(layer "F.SilkS")
 			(uuid "374f32a9-c3a2-458a-821d-aa62dfc090b5")
 			(effects
@@ -9021,7 +9021,7 @@
 		(descr "Molex Sabre Power Connector, 43160-0102, 2 Pins per row (http://www.molex.com/pdm_docs/sd/431600105_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Sabre side entry")
 		(property "Reference" "J6"
-			(at 3.745 5.44 0)
+			(at 15.795 -1.86 0)
 			(layer "F.SilkS")
 			(uuid "88f35d04-51f9-47a4-8ddc-0881f729dd8f")
 			(effects
@@ -9724,7 +9724,7 @@
 		(descr "TO-220AB-ren1")
 		(tags "Transistor")
 		(property "Reference" "Q1A3"
-			(at 0 0 0)
+			(at 9.23 -0.5 90)
 			(layer "F.SilkS")
 			(uuid "e326b848-4308-4d3d-9bd4-53c04634cadc")
 			(effects
@@ -10070,7 +10070,7 @@
 		(descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "DS1"
-			(at 0 -1.65 0)
+			(at 0.0725 1.705 0)
 			(layer "F.SilkS")
 			(uuid "b7418c30-0ac1-45c5-86a5-cff6353cc36d")
 			(effects
@@ -10328,7 +10328,7 @@
 		(descr "TO-220AB-ren1")
 		(tags "Transistor")
 		(property "Reference" "Q1A4"
-			(at 0 0 180)
+			(at -3.96 -0.395 -90)
 			(layer "F.SilkS")
 			(uuid "5c7de10c-eec2-49d4-b716-567a0ead8bd0")
 			(effects
@@ -10674,7 +10674,7 @@
 		(descr "TO-220AB-ren1")
 		(tags "Transistor")
 		(property "Reference" "Q1A11"
-			(at 0 0 0)
+			(at 9.13 -0.5 90)
 			(layer "F.SilkS")
 			(uuid "aaef5928-e721-4816-9e55-6494045734ff")
 			(effects
@@ -11020,7 +11020,7 @@
 		(descr "TO-220AB-ren1")
 		(tags "Transistor")
 		(property "Reference" "Q1A2"
-			(at 0 0 0)
+			(at 9.04 -0.45 90)
 			(layer "F.SilkS")
 			(uuid "838f365b-45cf-41be-8842-8c0e6a364600")
 			(effects
@@ -12393,7 +12393,7 @@
 		(descr "fuse holder, car blade fuse mini, http://www.keyelco.com/product-pdf.cfm?p=306")
 		(tags "car blade fuse mini")
 		(property "Reference" "F3"
-			(at 4.96 -2.67 0)
+			(at 14.31 1.8 0)
 			(layer "F.SilkS")
 			(uuid "5fb4b4d5-aabf-42fb-8307-4e8fb32e11dc")
 			(effects
@@ -12871,7 +12871,7 @@
 		(descr "fuse holder, car blade fuse mini, http://www.keyelco.com/product-pdf.cfm?p=306")
 		(tags "car blade fuse mini")
 		(property "Reference" "F5"
-			(at 4.96 -2.67 90)
+			(at -4.14 1.65 180)
 			(layer "F.SilkS")
 			(uuid "045ad341-61a0-4f4d-a11e-3cfee39ac1b4")
 			(effects
@@ -13166,7 +13166,7 @@
 		(descr "UMT6_1")
 		(tags "MOSFET (N-Channel)")
 		(property "Reference" "Q2"
-			(at 0 0 90)
+			(at 0 2.6 180)
 			(layer "F.SilkS")
 			(uuid "cb9b3523-e3dc-4020-81b7-d64bc508e1e0")
 			(effects
@@ -13492,7 +13492,7 @@
 		(descr "TO-220AB-ren1")
 		(tags "Transistor")
 		(property "Reference" "Q1A12"
-			(at 0 0 180)
+			(at -4 -0.495 -90)
 			(layer "F.SilkS")
 			(uuid "bae3b22f-6db2-459a-b496-bf9d9646187a")
 			(effects
@@ -17540,6 +17540,174 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "d3016696-3468-4ab8-9810-a9c9456bce38")
+	)
+	(gr_text "+"
+		(at 150.5 96.7 0)
+		(layer "F.SilkS")
+		(uuid "1dac9f6b-8e3a-4ec0-9bbe-acde5a4372c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 151.7 105.6 90)
+		(layer "F.SilkS")
+		(uuid "27d12810-cfb5-48ee-b916-d8d93b5461ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 194.4 24.2 -90)
+		(layer "F.SilkS")
+		(uuid "2e09902f-16ec-4ef8-aed5-009435519bd1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 184.1 24.6 0)
+		(layer "F.SilkS")
+		(uuid "581c25fe-ffad-4413-bbe0-4af399cbc027")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 151.7 92.8 90)
+		(layer "F.SilkS")
+		(uuid "627c9f3a-ab5c-44b3-b75c-21dad6fcfeba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 150.5 109.5 0)
+		(layer "F.SilkS")
+		(uuid "68d671ab-c1ae-4ea4-bfdb-06e418d84b59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 151.5 82.3 0)
+		(layer "F.SilkS")
+		(uuid "8f7674cb-4dde-4733-a53b-1e88e765b463")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 152.7 70.9 90)
+		(layer "F.SilkS")
+		(uuid "b479ee10-8365-4c3c-abb3-26c87cf4b6fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 152.7 45.3 90)
+		(layer "F.SilkS")
+		(uuid "e64f542e-0cf0-4cb1-9297-b79d5b20ac63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 205.8 25.4 0)
+		(layer "F.SilkS")
+		(uuid "ebf190d9-850f-40e0-a960-f46324201022")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 180.2 23.4 -90)
+		(layer "F.SilkS")
+		(uuid "ec899335-9903-4234-868f-e044b146b2fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 218.2 94.8 -90)
+		(layer "F.SilkS")
+		(uuid "ee5ac551-bd0e-422e-b115-eff7fefc87d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 151.5 56.7 0)
+		(layer "F.SilkS")
+		(uuid "f59213c2-40ab-4a1b-8dfd-2968ff69728b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 219.4 83.4 180)
+		(layer "F.SilkS")
+		(uuid "f928dc5c-3a9e-4fc4-9aa8-bc764fafe926")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(via
 		(at 199.3 98.7)
