@@ -138,7 +138,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "C:/Users/praty/OneDrive/Documents/LHR/PowerBoard_Standardization/Power-SecondaryPCB/Gerbers/")
+			(outputdirectory "C:/Users/praty/OneDrive/Documents/LHR/Power-Gerbers/")
 		)
 	)
 	(net 0 "")
@@ -6164,6 +6164,7 @@
 		(property "Reference" "U1"
 			(at 24.765 0 -90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "967e02a9-f076-437b-a90a-415b8646bc2c")
 			(effects
 				(font
