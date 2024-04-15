@@ -138,7 +138,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "C:/Users/praty/OneDrive/Documents/LHR/Power-Gerbers/")
+			(outputdirectory "C:/Users/praty/Downloads/Power-Gerbers/")
 		)
 	)
 	(net 0 "")
@@ -17705,6 +17705,18 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "-"
+		(at 186.75 100.5 180)
+		(layer "F.SilkS")
+		(uuid "37ed3d13-4087-4143-a9cb-e05af5587e3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "By Frank, Jack, Pratyush, and Jason\n"
 		(at 183.25 112.5 0)
 		(layer "F.SilkS")
@@ -17845,7 +17857,7 @@
 		)
 	)
 	(gr_text "LV Enable"
-		(at 182.75 32.25 0)
+		(at 182.75 32 0)
 		(layer "F.SilkS")
 		(uuid "9d07800a-fd58-4f2d-a930-19efed17f6bb")
 		(effects
@@ -17961,6 +17973,18 @@
 		(at 218.2 94.8 -90)
 		(layer "F.SilkS")
 		(uuid "ee5ac551-bd0e-422e-b115-eff7fefc87d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 196.5 101.5 0)
+		(layer "F.SilkS")
+		(uuid "f3a3f7c0-ff09-42a1-af2d-cf7f1ba045e6")
 		(effects
 			(font
 				(size 1 1)
@@ -18743,14 +18767,6 @@
 		(uuid "63c24bae-1fd3-4506-ba96-e0ed4e8f1c2e")
 	)
 	(segment
-		(start 166.6 47.7)
-		(end 166.5 47.6)
-		(width 0.5)
-		(layer "In1.Cu")
-		(net 28)
-		(uuid "9332fafa-6583-43ea-b66a-f03c0e43253c")
-	)
-	(segment
 		(start 166.5 77.6)
 		(end 166.5 47.8)
 		(width 0.5)
@@ -18943,7 +18959,7 @@
 		(uuid "5cd939a2-6982-48b1-ac7e-3530c4e8244d")
 	)
 	(segment
-		(start 157.8 101)
+		(start 157.8 102.5)
 		(end 157.8 91.8)
 		(width 2)
 		(layer "F.Cu")
@@ -18989,14 +19005,6 @@
 		(layer "F.Cu")
 		(net 33)
 		(uuid "ade62756-4317-44ef-ad4f-0be974b0cc75")
-	)
-	(segment
-		(start 157.8 102.5)
-		(end 157.8 101)
-		(width 2)
-		(layer "F.Cu")
-		(net 33)
-		(uuid "b8a5f2d9-aad6-4e0b-bd86-8e9269db369d")
 	)
 	(via
 		(at 179.55625 36.95625)
@@ -19080,7 +19088,7 @@
 		(uuid "29228f6f-3dd7-4a0f-97ba-faedf845392a")
 	)
 	(segment
-		(start 160.852 102.477)
+		(start 159.773 102.477)
 		(end 177.478156 102.477)
 		(width 0.5)
 		(layer "In2.Cu")
@@ -19134,14 +19142,6 @@
 		(layer "In2.Cu")
 		(net 33)
 		(uuid "b018c3c8-4103-4169-9995-e749036299fb")
-	)
-	(segment
-		(start 160.852 102.477)
-		(end 159.773 102.477)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net 33)
-		(uuid "f7df37a9-4647-4580-8529-a9fdad8cc0ec")
 	)
 	(segment
 		(start 202.498069 75.5)
@@ -19894,46 +19894,6 @@
 		(layer "F.Cu")
 		(net 44)
 		(uuid "ee27b365-c959-456d-a175-b113dbcf4e07")
-	)
-	(segment
-		(start 194.49 48.54)
-		(end 197.49 48.54)
-		(width 2.7)
-		(layer "B.Cu")
-		(net 49)
-		(uuid "168f53ad-69ce-4e8d-b37f-1fd8be58f21c")
-	)
-	(segment
-		(start 197.49 48.54)
-		(end 197.75 48.8)
-		(width 2.7)
-		(layer "B.Cu")
-		(net 49)
-		(uuid "18fabdc2-4097-433f-94a7-357a1ee290f6")
-	)
-	(segment
-		(start 197.75 40.425)
-		(end 197.725 40.4)
-		(width 2.7)
-		(layer "B.Cu")
-		(net 49)
-		(uuid "ac7bfa85-ead6-45f3-89ea-496299dc6178")
-	)
-	(segment
-		(start 197.75 48.8)
-		(end 197.75 44.6)
-		(width 2.7)
-		(layer "B.Cu")
-		(net 49)
-		(uuid "b1a932f6-0021-4700-9146-b82b34bf8f41")
-	)
-	(segment
-		(start 197.75 44.6)
-		(end 197.75 40.425)
-		(width 2.7)
-		(layer "B.Cu")
-		(net 49)
-		(uuid "d29063a1-5542-47f7-85d3-36ddb7390672")
 	)
 	(zone
 		(net 1)
@@ -23842,7 +23802,7 @@
 				(xy 177.222509 38.599064) (xy 177.202826 38.666096) (xy 177.202825 38.666101) (xy 177.202825 38.666102)
 				(xy 177.194502 38.723992) (xy 177.1945 38.724003) (xy 177.1945 50.183729) (xy 177.174815 50.250768)
 				(xy 177.122011 50.296523) (xy 177.052853 50.306467) (xy 176.999377 50.285304) (xy 176.833875 50.169419)
-				(xy 176.833873 50.169418) (xy 176.718312 50.115531) (xy 176.636755 50.0775) (xy 176.636751 50.077499)
+				(xy 176.833873 50.169418) (xy 176.735314 50.123459) (xy 176.636755 50.0775) (xy 176.636751 50.077499)
 				(xy 176.636747 50.077497) (xy 176.426674 50.021209) (xy 176.42667 50.021208) (xy 176.426669 50.021208)
 				(xy 176.426668 50.021207) (xy 176.426663 50.021207) (xy 176.210002 50.002252) (xy 176.209998 50.002252)
 				(xy 175.993336 50.021207) (xy 175.993325 50.021209) (xy 175.783252 50.077497) (xy 175.783243 50.077501)
