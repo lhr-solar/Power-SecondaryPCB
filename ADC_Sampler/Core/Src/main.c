@@ -112,7 +112,8 @@ int main(void)
   MX_GPIO_Init();
   MX_ADC1_Init();
   /* USER CODE BEGIN 2 */
-
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, 1);
+  int state = 0;
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -130,20 +131,19 @@ int main(void)
     raw = HAL_ADC_GetValue(&hadc1); // gets value
     filter = average_filter(raw, buffer, 5, &i, &sum);
 
-    if (filter > 2000) {
+    if (filter > 3150 && state == 0) {
       HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, 1);
       HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, 0); //Turn off Supplemental Connection
-      for(volatile int x = 0; x < 50; x++){
-      } 
+      //HAL_Delay(6);
       HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, 1); //Turn on DCDC Connection
+      state = 1;
     }
-    else {
+    else if (raw < 3150 && state != 0){
       HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, 0);
       HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, 0); //Turn off DCDC Connection
-      for(volatile int x = 0; x < 100; x++){
-        x++;
-      } 
+      //HAL_Delay(6);
       HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, 1); //Turn on Supplemental Connection
+      state = 0;
     }
 
     /* USER CODE BEGIN 3 */
