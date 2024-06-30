@@ -56,7 +56,6 @@ UART_HandleTypeDef huart2;
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_ADC1_Init(void);
-static void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -64,7 +63,13 @@ static void MX_USART2_UART_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
-uint32_t average_filter(uint32_t val, uint32_t* buffer, uint32_t size, uint32_t *i, uint32_t *sum) { // Moving average filter for the ADC values. Works by replacing the oldest value in buffer with a new value.
+#define NONCRITICAL_SUPP    GPIOB, GPIO_PIN_0
+#define NONCRITICAL_DCDC    GPIOB, GPIO_PIN_7
+#define CRITICAL_SUPP       GPIOB, GPIO_PIN_6
+#define CRITICAL_DCDC       GPIOB, GPIO_PIN_1
+#define LV_EN_PIN           GPIOA, GPIO_PIN_2
+
+static uint32_t average_filter(uint32_t val, uint32_t* buffer, uint32_t size, uint32_t *i, uint32_t *sum) { // Moving average filter for the ADC values. Works by replacing the oldest value in buffer with a new value.
   *sum += val;
   *sum -= buffer[*i];
   buffer[*i] = val;
@@ -115,13 +120,15 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_ADC1_Init();
-  MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 
-  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_1, 0);
-  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, 1); //Turn on Supplemental Connection
-  HAL_Delay(1000);
+  HAL_GPIO_WritePin(NONCRITICAL_DCDC, 0);
+  HAL_GPIO_WritePin(NONCRITICAL_SUPP, 0); //Turn on Supplemental Connection - FUSE
+  HAL_GPIO_WritePin(CRITICAL_DCDC, 0);
+  HAL_GPIO_WritePin(CRITICAL_SUPP, 0); //Turn off Supplemental Connection - BPS
+
   int state = 0;
+  int lv_en = 0;
 
   /* USER CODE END 2 */
 
@@ -138,20 +145,31 @@ int main(void)
       filter = average_filter(raw, buffer, buff_size, &i, &sum);
     }
 
-    //2895
-    if (filter >= THRESHHOLD + 100 && state == 0) {
-      HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, 1);
-      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, 0); //Turn off Supplemental Connection
-      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_1, 1); //Turn on DCDC Connection
-      HAL_Delay(200);
-      state = 1;
-    }
-    else if (filter < THRESHHOLD - 700  && state != 0){
-      HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, 0);
-      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_1, 0); //Turn off DCDC Connection
-      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, 1); //Turn on Supplemental Connection
-      HAL_Delay(200);
-      state = 0;
+    lv_en = HAL_GPIO_ReadPin(LV_EN_PIN);
+
+    if (lv_en) {
+      //2895
+      if (filter >= THRESHHOLD + 100 && state == 0) {
+        HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, 1);
+        HAL_GPIO_WritePin(CRITICAL_SUPP, 0); //Turn off Supplemental Connection
+        HAL_GPIO_WritePin(CRITICAL_DCDC, 1); //Turn on DCDC Connection
+        HAL_GPIO_WritePin(NONCRITICAL_DCDC, 1);
+        HAL_Delay(200);
+        state = 1;
+      }
+      else if (filter < THRESHHOLD - 700  && state != 0){
+        HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, 0);
+        HAL_GPIO_WritePin(CRITICAL_DCDC, 0); //Turn off DCDC Connection
+        HAL_GPIO_WritePin(NONCRITICAL_DCDC, 0);
+        HAL_GPIO_WritePin(CRITICAL_SUPP, 1); //Turn on Supplemental Connection
+        HAL_Delay(200);
+        state = 0;
+      }
+    } else {
+      HAL_GPIO_WritePin(CRITICAL_DCDC, 0);
+      HAL_GPIO_WritePin(CRITICAL_SUPP, 0); //Turn on Supplemental Connection - FUSE
+      HAL_GPIO_WritePin(NONCRITICAL_DCDC, 0);
+      HAL_GPIO_WritePin(NONCRITICAL_SUPP, 0); //Turn off Supplemental Connection - BPS
     }
 
     /* USER CODE BEGIN 3 */
@@ -278,41 +296,6 @@ static void MX_ADC1_Init(void)
 }
 
 /**
-  * @brief USART2 Initialization Function
-  * @param None
-  * @retval None
-  */
-static void MX_USART2_UART_Init(void)
-{
-
-  /* USER CODE BEGIN USART2_Init 0 */
-
-  /* USER CODE END USART2_Init 0 */
-
-  /* USER CODE BEGIN USART2_Init 1 */
-
-  /* USER CODE END USART2_Init 1 */
-  huart2.Instance = USART2;
-  huart2.Init.BaudRate = 115200;
-  huart2.Init.WordLength = UART_WORDLENGTH_8B;
-  huart2.Init.StopBits = UART_STOPBITS_1;
-  huart2.Init.Parity = UART_PARITY_NONE;
-  huart2.Init.Mode = UART_MODE_TX_RX;
-  huart2.Init.HwFlowCtl = UART_HWCONTROL_NONE;
-  huart2.Init.OverSampling = UART_OVERSAMPLING_16;
-  huart2.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
-  huart2.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
-  if (HAL_UART_Init(&huart2) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /* USER CODE BEGIN USART2_Init 2 */
-
-  /* USER CODE END USART2_Init 2 */
-
-}
-
-/**
   * @brief GPIO Initialization Function
   * @param None
   * @retval None
@@ -329,8 +312,15 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_2, GPIO_PIN_RESET);
   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0|GPIO_PIN_1|LD3_Pin|GPIO_PIN_6
                           |GPIO_PIN_7, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin : PA2 */
+  GPIO_InitStruct.Pin = GPIO_PIN_2;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
   /*Configure GPIO pins : PB0 PB1 PB6 PB7 */
   GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_6|GPIO_PIN_7;
