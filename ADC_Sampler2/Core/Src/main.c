@@ -67,7 +67,7 @@ static void MX_ADC1_Init(void);
 #define NONCRITICAL_DCDC    GPIOB, GPIO_PIN_7
 #define CRITICAL_SUPP       GPIOB, GPIO_PIN_6
 #define CRITICAL_DCDC       GPIOB, GPIO_PIN_1
-#define LV_EN_PIN           GPIOA, GPIO_PIN_2
+#define LV_EN_PIN           GPIOA, GPIO_PIN_7
 
 static uint32_t average_filter(uint32_t val, uint32_t* buffer, uint32_t size, uint32_t *i, uint32_t *sum) { // Moving average filter for the ADC values. Works by replacing the oldest value in buffer with a new value.
   *sum += val;
@@ -127,7 +127,6 @@ int main(void)
   HAL_GPIO_WritePin(CRITICAL_DCDC, 0);
   HAL_GPIO_WritePin(CRITICAL_SUPP, 0); //Turn off Supplemental Connection - BPS
 
-  int state = 0;
   int lv_en = 0;
 
   /* USER CODE END 2 */
@@ -146,24 +145,21 @@ int main(void)
     }
 
     lv_en = HAL_GPIO_ReadPin(LV_EN_PIN);
+    HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, lv_en);
 
     if (lv_en) {
       //2895
-      if (filter >= THRESHHOLD + 100 && state == 0) {
-        HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, 1);
+      if (filter >= THRESHHOLD + 100) {
+        // HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, 1);
         HAL_GPIO_WritePin(CRITICAL_SUPP, 0); //Turn off Supplemental Connection
         HAL_GPIO_WritePin(CRITICAL_DCDC, 1); //Turn on DCDC Connection
-        HAL_GPIO_WritePin(NONCRITICAL_DCDC, 1);
-        HAL_Delay(200);
-        state = 1;
+        HAL_GPIO_WritePin(NONCRITICAL_DCDC, 1);        
       }
-      else if (filter < THRESHHOLD - 700  && state != 0){
-        HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, 0);
+      else if (filter < THRESHHOLD - 700){
+        // HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, 0);
         HAL_GPIO_WritePin(CRITICAL_DCDC, 0); //Turn off DCDC Connection
         HAL_GPIO_WritePin(NONCRITICAL_DCDC, 0);
         HAL_GPIO_WritePin(CRITICAL_SUPP, 1); //Turn on Supplemental Connection
-        HAL_Delay(200);
-        state = 0;
       }
     } else {
       HAL_GPIO_WritePin(CRITICAL_DCDC, 0);
@@ -171,6 +167,8 @@ int main(void)
       HAL_GPIO_WritePin(NONCRITICAL_DCDC, 0);
       HAL_GPIO_WritePin(NONCRITICAL_SUPP, 0); //Turn off Supplemental Connection - BPS
     }
+
+    HAL_Delay(50);
 
     /* USER CODE BEGIN 3 */
   }
@@ -312,12 +310,11 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_2, GPIO_PIN_RESET);
   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0|GPIO_PIN_1|LD3_Pin|GPIO_PIN_6
                           |GPIO_PIN_7, GPIO_PIN_RESET);
 
-  /*Configure GPIO pin : PA2 */
-  GPIO_InitStruct.Pin = GPIO_PIN_2;
+  /*Configure GPIO pin : PA7 */
+  GPIO_InitStruct.Pin = GPIO_PIN_7;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
