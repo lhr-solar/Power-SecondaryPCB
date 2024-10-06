@@ -6,4 +6,5 @@
   (lib (name "utsvt-misc")(type "Legacy")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt-misc.lib")(options "")(descr ""))
   (lib (name "utsvt-power-regulators")(type "Legacy")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt-power-regulators.lib")(options "")(descr ""))
   (lib (name "utsvt-powersupp")(type "KiCad")(uri "${KIPRJMOD}/lib/UTSVT_PowerSupp.kicad_sym")(options "")(descr ""))
+  (lib (name "Power-Board")(type "KiCad")(uri "${KIPRJMOD}/LTC4421/LTC4421_PB/N_Channel_MOSFET.kicad_sym")(options "")(descr ""))
 )
