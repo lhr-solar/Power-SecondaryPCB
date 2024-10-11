@@ -3,5 +3,6 @@
 *-bak
 *.bck
 *.swp
+*.lck
 *-save.*
 /Power-Secondary-backups/*

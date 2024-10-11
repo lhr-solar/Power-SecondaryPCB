@@ -1556,12 +1556,6 @@
 		(uuid "2bf41a2b-4d6c-4a10-b4e7-cbf0e38fac4b")
 	)
 	(junction
-		(at 31.75 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49751475-25c6-40dd-bfdb-8b45ce68bc9a")
-	)
-	(junction
 		(at 151.13 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1592,6 +1586,18 @@
 		(uuid "b07926cf-dfc8-401a-a7f8-68ec6f89ae2e")
 	)
 	(junction
+		(at 31.75 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbe898a4-0ad9-4567-a97d-2c8c0be540b8")
+	)
+	(junction
+		(at 31.75 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6538988-bb1f-4b20-888c-4f2a19df8bf8")
+	)
+	(junction
 		(at 26.67 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1616,8 +1622,16 @@
 		(uuid "ee4b80d6-79e1-4b9a-a3aa-9a057c536c76")
 	)
 	(no_connect
+		(at 22.86 66.04)
+		(uuid "1dd3a338-9ade-469a-8319-aad101a87c8b")
+	)
+	(no_connect
 		(at 33.02 81.28)
 		(uuid "790b5671-a3b5-452b-8cfa-1ad831af5942")
+	)
+	(no_connect
+		(at 72.39 66.04)
+		(uuid "ead9819b-5792-4b90-b3fe-1f7f06ae41c0")
 	)
 	(wire
 		(pts
@@ -1641,7 +1655,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 38.1) (xy 33.02 38.1)
+			(xy 22.86 38.1) (xy 33.02 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1781,16 +1795,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 38.1) (xy 31.75 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c47427e-3215-4797-bd96-c63f030ee284")
-	)
-	(wire
-		(pts
 			(xy 151.13 45.72) (xy 151.13 46.99)
 		)
 		(stroke
@@ -1881,6 +1885,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 43.18) (xy 33.02 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c8fc01f-da5d-4171-9f40-6681472b6e10")
+	)
+	(wire
+		(pts
 			(xy 220.98 123.19) (xy 220.98 127)
 		)
 		(stroke
@@ -1928,6 +1942,16 @@
 			(type default)
 		)
 		(uuid "6b9ddb09-fb8c-474f-a50d-5a50accecfca")
+	)
+	(wire
+		(pts
+			(xy 22.86 40.64) (xy 31.75 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "721a5545-5bce-4c46-93ed-daa21234cc6a")
 	)
 	(wire
 		(pts
@@ -2011,16 +2035,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 38.1) (xy 31.75 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a88d3d1-228c-4341-8d5d-50a8e5bd144c")
-	)
-	(wire
-		(pts
 			(xy 22.86 68.58) (xy 33.02 68.58)
 		)
 		(stroke
@@ -2068,6 +2082,16 @@
 			(type default)
 		)
 		(uuid "a9691965-4506-4494-a343-326462e9327c")
+	)
+	(wire
+		(pts
+			(xy 31.75 40.64) (xy 33.02 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9dbd8b5-d4dd-4a04-9f26-1dbbb6de5dec")
 	)
 	(wire
 		(pts
@@ -2141,6 +2165,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 40.64) (xy 31.75 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae5d0e7e-cfbe-4c1a-8fa5-c60be87b4da8")
+	)
+	(wire
+		(pts
 			(xy 234.95 134.62) (xy 234.95 138.43)
 		)
 		(stroke
@@ -2178,16 +2212,6 @@
 			(type default)
 		)
 		(uuid "b33d8820-2553-4e51-87ad-5c9bf93aaa04")
-	)
-	(wire
-		(pts
-			(xy 31.75 40.64) (xy 33.02 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3522b70-8947-4278-96ff-354c90b32683")
 	)
 	(wire
 		(pts
@@ -2411,7 +2435,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 43.18) (xy 33.02 43.18)
+			(xy 24.13 43.18) (xy 31.75 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6528,6 +6552,16 @@
 		)
 		(uuid "c888e160-ebc4-455a-b4c1-8bc83353d2b2")
 	)
+	(text "For the future, we should include a microcontroller\nso we can precisely control DISABLE, RETRY, and SHDN"
+		(exclude_from_sim no)
+		(at 49.53 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4182f75-2f47-44cc-b4ab-5187dae65dff")
+	)
 	(text "MOSFETs and Hubert"
 		(exclude_from_sim no)
 		(at 195.58 16.51 0)
@@ -6760,17 +6794,6 @@
 		)
 		(uuid "511c80f9-4ca1-4ce2-a05f-fc240ccf7568")
 	)
-	(label "DISABLE2"
-		(at 72.39 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "549fa1a5-d486-4604-b43d-f993b105c668")
-	)
 	(label "CPO"
 		(at 106.68 31.75 270)
 		(fields_autoplaced yes)
@@ -6825,6 +6848,17 @@
 			(justify left bottom)
 		)
 		(uuid "71c396f8-deb2-4f93-bcbc-304d4b05083c")
+	)
+	(label "CPOREF"
+		(at 22.86 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75168e7d-79d5-48b2-bd95-eb0592fe3085")
 	)
 	(label "CH1"
 		(at 22.86 68.58 0)
@@ -6936,7 +6970,7 @@
 		)
 		(uuid "8c445cc1-818b-4143-9335-89d2871aabd4")
 	)
-	(label "VOUT"
+	(label "OUT"
 		(at 110.49 116.84 270)
 		(fields_autoplaced yes)
 		(effects
@@ -7133,17 +7167,6 @@
 			(justify left bottom)
 		)
 		(uuid "ce0b8c95-7eff-468a-9e61-615f134e622b")
-	)
-	(label "DISABLE1"
-		(at 22.86 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d2c94c59-cd76-4c5f-bd67-3103bb65ff43")
 	)
 	(label "OUT"
 		(at 72.39 43.18 180)
@@ -7356,7 +7379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 254.762 130.81 90)
 			(effects
 				(font
@@ -7426,7 +7449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 219.202 130.81 90)
 			(effects
 				(font
@@ -7496,7 +7519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 222.25 139.7 0)
 			(effects
 				(font
@@ -7566,7 +7589,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ECE319K:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
 			(at 146.05 87.63 0)
 			(effects
 				(font
@@ -7636,7 +7659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 141.9352 182.88 0)
 			(effects
 				(font
@@ -7706,7 +7729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 92.202 172.72 90)
 			(effects
 				(font
@@ -7757,7 +7780,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c5d836f-f6c4-4393-9df7-6ee8edbc16dd")
-		(property "Reference" "CINTV_CC"
+		(property "Reference" "CINTV_CC1"
 			(at 15.24 81.28 0)
 			(effects
 				(font
@@ -7775,7 +7798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 27.6352 86.36 0)
 			(effects
 				(font
@@ -7811,7 +7834,7 @@
 		(instances
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
-					(reference "CINTV_CC")
+					(reference "CINTV_CC1")
 					(unit 1)
 				)
 			)
@@ -7893,7 +7916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "236c49ad-d890-472c-827e-0b9c6169e4c8")
-		(property "Reference" "CQUAL"
+		(property "Reference" "CQUAL1"
 			(at 110.49 87.6299 0)
 			(effects
 				(font
@@ -7911,7 +7934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 107.6452 92.71 0)
 			(effects
 				(font
@@ -7947,7 +7970,7 @@
 		(instances
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
-					(reference "CQUAL")
+					(reference "CQUAL1")
 					(unit 1)
 				)
 			)
@@ -7981,7 +8004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 108.712 172.72 90)
 			(effects
 				(font
@@ -8117,7 +8140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 197.612 130.81 90)
 			(effects
 				(font
@@ -8187,7 +8210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 236.22 139.7 0)
 			(effects
 				(font
@@ -8239,7 +8262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c0d85da-706a-4e59-903a-a9dfaea24e8d")
-		(property "Reference" "CTMR4"
+		(property "Reference" "CMOSFET2"
 			(at 200.66 59.6899 0)
 			(effects
 				(font
@@ -8257,7 +8280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 197.8152 64.77 0)
 			(effects
 				(font
@@ -8293,7 +8316,7 @@
 		(instances
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
-					(reference "CTMR4")
+					(reference "CMOSFET2")
 					(unit 1)
 				)
 			)
@@ -8327,7 +8350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 160.9852 182.88 0)
 			(effects
 				(font
@@ -8397,7 +8420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 108.712 187.96 90)
 			(effects
 				(font
@@ -8781,7 +8804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "625f5d00-8777-4163-bf06-722da2669564")
-		(property "Reference" "SHDN_Switch"
+		(property "Reference" "SHDN_Switch2"
 			(at 152.4 39.3699 90)
 			(effects
 				(font
@@ -8799,7 +8822,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ECE319K:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
 			(at 146.05 40.64 0)
 			(effects
 				(font
@@ -8835,7 +8858,7 @@
 		(instances
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
-					(reference "SHDN_Switch")
+					(reference "SHDN_Switch2")
 					(unit 1)
 				)
 			)
@@ -8869,7 +8892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 268.732 130.81 90)
 			(effects
 				(font
@@ -8939,7 +8962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 108.712 180.34 90)
 			(effects
 				(font
@@ -9009,7 +9032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 92.202 187.96 90)
 			(effects
 				(font
@@ -9070,7 +9093,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "5K"
 			(at 153.67 77.47 0)
 			(effects
 				(font
@@ -9079,7 +9102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 149.352 76.2 90)
 			(effects
 				(font
@@ -9215,7 +9238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 257.81 139.7 0)
 			(effects
 				(font
@@ -9284,7 +9307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 108.712 165.1 90)
 			(effects
 				(font
@@ -9336,7 +9359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88510c77-008e-4ed2-b772-3124b53a13e5")
-		(property "Reference" "CTMR3"
+		(property "Reference" "CMOSFET1"
 			(at 200.66 31.7499 0)
 			(effects
 				(font
@@ -9354,7 +9377,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 197.8152 36.83 0)
 			(effects
 				(font
@@ -9390,7 +9413,7 @@
 		(instances
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
-					(reference "CTMR3")
+					(reference "CMOSFET1")
 					(unit 1)
 				)
 			)
@@ -9424,7 +9447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 92.202 165.1 90)
 			(effects
 				(font
@@ -9494,7 +9517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 271.78 139.7 0)
 			(effects
 				(font
@@ -9555,7 +9578,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "5K"
 			(at 153.67 30.48 0)
 			(effects
 				(font
@@ -9564,7 +9587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 149.352 29.21 90)
 			(effects
 				(font
@@ -9701,7 +9724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 233.172 130.81 90)
 			(effects
 				(font
@@ -9771,7 +9794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 200.66 139.7 0)
 			(effects
 				(font
@@ -9823,7 +9846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac9e0443-53e6-4a55-a379-5a11b2ea86f0")
-		(property "Reference" "COUT"
+		(property "Reference" "COUT1"
 			(at 114.3 126.3649 0)
 			(effects
 				(font
@@ -9841,7 +9864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 110.49 128.27 0)
 			(effects
 				(font
@@ -9877,7 +9900,7 @@
 		(instances
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
-					(reference "COUT")
+					(reference "COUT1")
 					(unit 1)
 				)
 			)
@@ -9911,7 +9934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 92.202 180.34 90)
 			(effects
 				(font
@@ -10029,7 +10052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4866fe5-1e95-4d83-a6a1-d43b6856e3a2")
-		(property "Reference" "RSENSE"
+		(property "Reference" "RSENSE1"
 			(at 55.88 126.9999 0)
 			(effects
 				(font
@@ -10047,7 +10070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 51.562 128.27 90)
 			(effects
 				(font
@@ -10083,77 +10106,7 @@
 		(instances
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
-					(reference "RSENSE")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ECE319K:C")
-		(at 106.68 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ccc2d9ac-f0a6-474b-9741-406b2abe873c")
-		(property "Reference" "CCPO"
-			(at 110.49 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 110.49 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
-			(at 107.6452 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 106.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ab073fa8-5aa5-4fbf-afae-1f8f354b6f48")
-		)
-		(pin "1"
-			(uuid "0def6d3b-db95-4121-86fd-f9f07cb64e51")
-		)
-		(instances
-			(project "Power-Secondary"
-				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
-					(reference "CCPO")
+					(reference "RSENSE1")
 					(unit 1)
 				)
 			)
@@ -10187,7 +10140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 183.642 130.81 90)
 			(effects
 				(font
@@ -10436,7 +10389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 186.69 139.7 0)
 			(effects
 				(font
@@ -10473,6 +10426,76 @@
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECE319K:C")
+		(at 106.68 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faf61ce3-1edd-49e8-8d47-4a93d3daf245")
+		(property "Reference" "CCPO1"
+			(at 110.49 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 110.49 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 107.6452 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 106.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "465f8b15-0f8b-4616-8817-49c9531b96c8")
+		)
+		(pin "1"
+			(uuid "9f4005bc-c78c-439b-813a-d650895e3e8b")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
+					(reference "CCPO1")
 					(unit 1)
 				)
 			)
