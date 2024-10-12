@@ -7,4 +7,7 @@
   (lib (name "utsvt-power-regulators")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt-power-regulators.kicad_sym")(options "")(descr ""))
   (lib (name "utsvt-powersupp")(type "KiCad")(uri "${KIPRJMOD}/lib/UTSVT_PowerSupp.kicad_sym")(options "")(descr ""))
   (lib (name "Power-Board")(type "KiCad")(uri "${KIPRJMOD}/LTC4421/LTC4421_PB/N_Channel_MOSFET.kicad_sym")(options "")(descr ""))
+  (lib (name "LTC4221")(type "KiCad")(uri "${KIPRJMOD}/models/lib/LTC4421CG-PBF/KiCADv6/LTC4221.kicad_sym")(options "")(descr ""))
+  (lib (name "SMBJ15D-M3I")(type "KiCad")(uri "${KIPRJMOD}/models/lib/SMBJ15D-M3I/SMBJ15D-M3I.kicad_sym")(options "")(descr ""))
+  (lib (name "SQJQ140E-T1_GE3")(type "KiCad")(uri "${KIPRJMOD}/models/lib/SQJQ140E-T1_GE3/SQJQ140E-T1_GE3.kicad_sym")(options "")(descr ""))
 )

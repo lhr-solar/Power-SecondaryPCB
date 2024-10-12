@@ -2,39 +2,51 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "LTC4421"
+	(symbol "LTC4421CG-PBF"
+		(pin_names
+			(offset 0.254)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -12.446 27.432 0)
+			(at -10.668 27.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left top)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "LTC4421CG-PBF"
+			(at -2.032 -28.194 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "LTC4421:G_05-08-1640_ADI"
+			(at -19.05 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4421.pdf"
-			(at 3.048 0.254 0)
+			(at -39.37 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Priority-based Power Path Controller"
+			(at -19.05 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,7 +54,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "ki_keywords" "LTC4421CG#PBF"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51,32 +63,67 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "LTC4421IG#PBF"
-			(at -12.954 -27.432 0)
+		(property "ki_fp_filters" "G_05-08-1640_ADI G_05-08-1640_ADI-M G_05-08-1640_ADI-L"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(hide yes)
 			)
 		)
-		(symbol "LTC4421_0_1"
-			(rectangle
-				(start -12.7 25.4)
-				(end 11.43 -25.4)
+		(symbol "LTC4421CG-PBF_0_1"
+			(polyline
+				(pts
+					(xy -11.43 -26.67) (xy 11.43 -26.67)
+				)
 				(stroke
-					(width 0)
+					(width 0.127)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-		)
-		(symbol "LTC4421_1_1"
+			(polyline
+				(pts
+					(xy -11.43 26.67) (xy -11.43 -26.67)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.43 -26.67) (xy 11.43 26.67)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.43 26.67) (xy -11.43 26.67)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin output line
-				(at -15.24 21.59 0)
-				(length 2.54)
+				(at -19.05 21.59 0)
+				(length 7.62)
 				(name "CPO"
 					(effects
 						(font
@@ -93,8 +140,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -1.27 0)
-				(length 2.54)
+				(at -19.05 -1.27 0)
+				(length 7.62)
 				(name "OV1"
 					(effects
 						(font
@@ -110,9 +157,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -15.24 -3.81 0)
-				(length 2.54)
+			(pin unspecified line
+				(at -19.05 -3.81 0)
+				(length 7.62)
 				(name "TMR1"
 					(effects
 						(font
@@ -129,9 +176,9 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -6.35 0)
-				(length 2.54)
-				(name "DISABLE1"
+				(at -19.05 -6.35 0)
+				(length 7.62)
+				(name "*DISABLE1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -147,9 +194,9 @@
 				)
 			)
 			(pin output line
-				(at -15.24 -8.89 0)
-				(length 2.54)
-				(name "CH1"
+				(at -19.05 -8.89 0)
+				(length 7.62)
+				(name "*CH1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -164,10 +211,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at -15.24 -11.43 0)
-				(length 2.54)
-				(name "VALID1"
+			(pin unspecified line
+				(at -19.05 -11.43 0)
+				(length 7.62)
+				(name "*VALID1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -183,9 +230,9 @@
 				)
 			)
 			(pin output line
-				(at -15.24 -13.97 0)
-				(length 2.54)
-				(name "FAULT1"
+				(at -19.05 -13.97 0)
+				(length 7.62)
+				(name "*FAULT1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -201,8 +248,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -16.51 0)
-				(length 2.54)
+				(at -19.05 -16.51 0)
+				(length 7.62)
 				(name "CASIN"
 					(effects
 						(font
@@ -218,10 +265,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at -15.24 -19.05 0)
-				(length 2.54)
-				(name "INTV_CC"
+			(pin power_in line
+				(at -19.05 -19.05 0)
+				(length 7.62)
+				(name "INTVCC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -237,8 +284,8 @@
 				)
 			)
 			(pin output line
-				(at -15.24 -21.59 0)
-				(length 2.54)
+				(at -19.05 -21.59 0)
+				(length 7.62)
 				(name "CASOUT"
 					(effects
 						(font
@@ -254,9 +301,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 13.97 -21.59 180)
-				(length 2.54)
+			(pin unspecified line
+				(at 19.05 -21.59 180)
+				(length 7.62)
 				(name "QUAL"
 					(effects
 						(font
@@ -272,9 +319,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -15.24 19.05 0)
-				(length 2.54)
+			(pin output line
+				(at -19.05 19.05 0)
+				(length 7.62)
 				(name "CPOREF"
 					(effects
 						(font
@@ -291,8 +338,8 @@
 				)
 			)
 			(pin input line
-				(at 13.97 -19.05 180)
-				(length 2.54)
+				(at 19.05 -19.05 180)
+				(length 7.62)
 				(name "RETRY"
 					(effects
 						(font
@@ -309,9 +356,9 @@
 				)
 			)
 			(pin input line
-				(at 13.97 -16.51 180)
-				(length 2.54)
-				(name "SHDN"
+				(at 19.05 -16.51 180)
+				(length 7.62)
+				(name "*SHDN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -327,9 +374,9 @@
 				)
 			)
 			(pin output line
-				(at 13.97 -13.97 180)
-				(length 2.54)
-				(name "FAULT2"
+				(at 19.05 -13.97 180)
+				(length 7.62)
+				(name "*FAULT2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -344,10 +391,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 13.97 -11.43 180)
-				(length 2.54)
-				(name "VALID2"
+			(pin unspecified line
+				(at 19.05 -11.43 180)
+				(length 7.62)
+				(name "*VALID2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -363,9 +410,9 @@
 				)
 			)
 			(pin output line
-				(at 13.97 -8.89 180)
-				(length 2.54)
-				(name "CH2"
+				(at 19.05 -8.89 180)
+				(length 7.62)
+				(name "*CH2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -381,9 +428,9 @@
 				)
 			)
 			(pin input line
-				(at 13.97 -6.35 180)
-				(length 2.54)
-				(name "DISABLE2"
+				(at 19.05 -6.35 180)
+				(length 7.62)
+				(name "*DISABLE2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -398,9 +445,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 13.97 -3.81 180)
-				(length 2.54)
+			(pin unspecified line
+				(at 19.05 -3.81 180)
+				(length 7.62)
 				(name "TMR2"
 					(effects
 						(font
@@ -417,8 +464,8 @@
 				)
 			)
 			(pin input line
-				(at 13.97 -1.27 180)
-				(length 2.54)
+				(at 19.05 -1.27 180)
+				(length 7.62)
 				(name "OV2"
 					(effects
 						(font
@@ -435,8 +482,8 @@
 				)
 			)
 			(pin input line
-				(at 13.97 1.27 180)
-				(length 2.54)
+				(at 19.05 1.27 180)
+				(length 7.62)
 				(name "UVR2"
 					(effects
 						(font
@@ -453,8 +500,8 @@
 				)
 			)
 			(pin input line
-				(at 13.97 3.81 180)
-				(length 2.54)
+				(at 19.05 3.81 180)
+				(length 7.62)
 				(name "UVF2"
 					(effects
 						(font
@@ -470,9 +517,9 @@
 					)
 				)
 			)
-			(pin output line
-				(at -15.24 16.51 0)
-				(length 2.54)
+			(pin unspecified line
+				(at -19.05 16.51 0)
+				(length 7.62)
 				(name "OUT1"
 					(effects
 						(font
@@ -489,8 +536,8 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 6.35 180)
-				(length 2.54)
+				(at 19.05 6.35 180)
+				(length 7.62)
 				(name "V2"
 					(effects
 						(font
@@ -506,9 +553,9 @@
 					)
 				)
 			)
-			(pin output line
-				(at 13.97 8.89 180)
-				(length 2.54)
+			(pin unspecified line
+				(at 19.05 8.89 180)
+				(length 7.62)
 				(name "GATE2"
 					(effects
 						(font
@@ -524,9 +571,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 13.97 11.43 180)
-				(length 2.54)
+			(pin unspecified line
+				(at 19.05 11.43 180)
+				(length 7.62)
 				(name "SOURCE2"
 					(effects
 						(font
@@ -543,8 +590,8 @@
 				)
 			)
 			(pin input line
-				(at 13.97 13.97 180)
-				(length 2.54)
+				(at 19.05 13.97 180)
+				(length 7.62)
 				(name "SENSE2"
 					(effects
 						(font
@@ -560,9 +607,9 @@
 					)
 				)
 			)
-			(pin output line
-				(at 13.97 16.51 180)
-				(length 2.54)
+			(pin unspecified line
+				(at 19.05 16.51 180)
+				(length 7.62)
 				(name "OUT2"
 					(effects
 						(font
@@ -578,9 +625,9 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 13.97 19.05 180)
-				(length 2.54)
+			(pin power_out line
+				(at 19.05 19.05 180)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -596,10 +643,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 13.97 21.59 180)
-				(length 2.54)
-				(name "EXTV_CC"
+			(pin power_in line
+				(at 19.05 21.59 180)
+				(length 7.62)
+				(name "EXTVCC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -615,8 +662,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 13.97 0)
-				(length 2.54)
+				(at -19.05 13.97 0)
+				(length 7.62)
 				(name "SENSE1"
 					(effects
 						(font
@@ -632,9 +679,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -15.24 11.43 0)
-				(length 2.54)
+			(pin unspecified line
+				(at -19.05 11.43 0)
+				(length 7.62)
 				(name "SOURCE1"
 					(effects
 						(font
@@ -650,9 +697,9 @@
 					)
 				)
 			)
-			(pin output line
-				(at -15.24 8.89 0)
-				(length 2.54)
+			(pin unspecified line
+				(at -19.05 8.89 0)
+				(length 7.62)
 				(name "GATE1"
 					(effects
 						(font
@@ -669,8 +716,8 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 6.35 0)
-				(length 2.54)
+				(at -19.05 6.35 0)
+				(length 7.62)
 				(name "V1"
 					(effects
 						(font
@@ -687,8 +734,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 3.81 0)
-				(length 2.54)
+				(at -19.05 3.81 0)
+				(length 7.62)
 				(name "UVF1"
 					(effects
 						(font
@@ -705,8 +752,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 1.27 0)
-				(length 2.54)
+				(at -19.05 1.27 0)
+				(length 7.62)
 				(name "UVR1"
 					(effects
 						(font
