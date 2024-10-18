@@ -11036,7 +11036,7 @@
 			(uuid "5ca5a7c4-f630-4f19-a3a9-000a746e18cc")
 		)
 		(instances
-			(project ""
+			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
 					(reference "U2")
 					(unit 1)
