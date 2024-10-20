@@ -2584,6 +2584,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 87.63) (xy 224.79 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c333ddd-2d59-4476-a767-53cb2c0223f9")
+	)
+	(wire
+		(pts
 			(xy 88.9 49.53) (xy 83.82 49.53)
 		)
 		(stroke
@@ -3013,7 +3023,7 @@
 		(uuid "fe5d1d07-4056-4a98-9b3b-4bd94daab978")
 	)
 	(rectangle
-		(start 160.02 134.62)
+		(start 160.02 133.35)
 		(end 265.43 170.18)
 		(stroke
 			(width 0)
@@ -3120,9 +3130,33 @@
 		)
 		(uuid 7d246dce-c83b-4fd0-89d2-dfcc5d210448)
 	)
+	(rectangle
+		(start 12.7 74.93)
+		(end 95.25 132.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9658f0fd-79de-4635-871d-1696893fbcf8)
+	)
+	(rectangle
+		(start 184.15 74.93)
+		(end 266.7 132.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cdf23a5e-ebef-4ac3-90c8-d50e924c8b2d)
+	)
 	(text "v1.0"
 		(exclude_from_sim no)
-		(at 167.64 142.24 0)
+		(at 167.64 140.97 0)
 		(effects
 			(font
 				(size 1.75 1.75)
@@ -3142,7 +3176,7 @@
 	)
 	(text "- "
 		(exclude_from_sim no)
-		(at 168.91 144.78 0)
+		(at 168.91 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3162,9 +3196,21 @@
 		)
 		(uuid "56df934d-20c4-4a57-a478-4467fc73ad4e")
 	)
+	(text "SHDN Logic"
+		(exclude_from_sim no)
+		(at 196.85 78.74 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "6e12098c-674f-4d75-b8af-30bee091f20e")
+	)
 	(text "Version History"
 		(exclude_from_sim no)
-		(at 173.99 138.43 0)
+		(at 173.99 137.16 0)
 		(effects
 			(font
 				(size 2 2)
@@ -3208,6 +3254,17 @@
 			(justify left bottom)
 		)
 		(uuid "1dcc4e5f-4c71-4794-b927-a9c24b26e3f7")
+	)
+	(label "SHDN"
+		(at 224.79 87.63 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "37c7fcc5-0b84-4118-833c-c6e4121448fb")
 	)
 	(label "V1"
 		(at 204.47 30.48 90)
