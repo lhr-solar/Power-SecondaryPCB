@@ -10,4 +10,5 @@
   (lib (name "LTC4421")(type "KiCad")(uri "${KIPRJMOD}/models/lib/LTC4421CG-PBF/KiCADv6/LTC4421.pretty")(options "")(descr ""))
   (lib (name "SMBJ15D-M3I")(type "KiCad")(uri "${KIPRJMOD}/models/lib/SMBJ15D-M3I")(options "")(descr ""))
   (lib (name "SQJQ140E-T1_GE3")(type "KiCad")(uri "${KIPRJMOD}/models/lib/SQJQ140E-T1_GE3")(options "")(descr ""))
+  (lib (name "PowerBoardLib")(type "KiCad")(uri "${KIPRJMOD}/lib/PowerBoardLib.pretty")(options "")(descr ""))
 )
