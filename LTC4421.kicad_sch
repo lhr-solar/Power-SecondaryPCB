@@ -2622,6 +2622,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 148.59) (xy 257.81 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67689592-b46a-4cc8-826f-0487bd8f18b4")
+	)
+	(wire
+		(pts
 			(xy 269.24 73.66) (xy 260.35 73.66)
 		)
 		(stroke
@@ -2772,6 +2782,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 148.59) (xy 232.41 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d7d97d1-c827-482c-a272-0dc5778618b2")
+	)
+	(wire
+		(pts
 			(xy 130.81 90.17) (xy 139.7 90.17)
 		)
 		(stroke
@@ -2892,6 +2912,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 148.59) (xy 270.51 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44955b9-af6e-4370-9334-9615ca3fd411")
+	)
+	(wire
+		(pts
 			(xy 24.13 68.58) (xy 31.75 68.58)
 		)
 		(stroke
@@ -2909,6 +2939,16 @@
 			(type default)
 		)
 		(uuid "a69371ad-5051-4452-9503-7e8ec9cdd86b")
+	)
+	(wire
+		(pts
+			(xy 245.11 148.59) (xy 245.11 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b1a1d3-151d-45fa-a7b9-2fe6a1b6d999")
 	)
 	(wire
 		(pts
@@ -3142,6 +3182,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 148.59) (xy 207.01 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8a516c4-123e-46db-accb-f7aab61e1bbd")
+	)
+	(wire
+		(pts
 			(xy 223.52 99.06) (xy 223.52 85.09)
 		)
 		(stroke
@@ -3282,6 +3332,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 148.59) (xy 219.71 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ecfaf9-f5c9-40dc-b6bc-ddebc836dee1")
+	)
+	(wire
+		(pts
 			(xy 93.98 184.15) (xy 101.6 184.15)
 		)
 		(stroke
@@ -3392,6 +3452,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 148.59) (xy 181.61 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa66b257-4d4b-4d9f-b685-710ef11dc181")
+	)
+	(wire
+		(pts
 			(xy 242.57 73.66) (xy 233.68 73.66)
 		)
 		(stroke
@@ -3409,6 +3479,16 @@
 			(type default)
 		)
 		(uuid "faddbe20-c842-44f7-8ce3-8232146967e4")
+	)
+	(wire
+		(pts
+			(xy 194.31 148.59) (xy 194.31 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb6b5bf3-be50-498c-a6c2-6c33f8b59959")
 	)
 	(wire
 		(pts
@@ -7561,6 +7641,17 @@
 		)
 		(uuid "0bf38f23-10be-4929-a82b-54a6e8351fdd")
 	)
+	(label "CH2"
+		(at 219.71 160.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c3a4710-f517-4f0c-8ffb-d7bee0b75aaf")
+	)
 	(label "INTVCC"
 		(at 228.6 69.85 0)
 		(fields_autoplaced yes)
@@ -7748,6 +7839,28 @@
 		)
 		(uuid "511c80f9-4ca1-4ce2-a05f-fc240ccf7568")
 	)
+	(label "VALID2"
+		(at 245.11 160.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55922b8b-0f9f-444b-adbd-1c68e55c3db0")
+	)
+	(label "CH1"
+		(at 207.01 160.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56d48196-59d7-4b7a-b313-d885a46c2c69")
+	)
 	(label "CPO"
 		(at 106.68 31.75 270)
 		(fields_autoplaced yes)
@@ -7791,6 +7904,17 @@
 			(justify left bottom)
 		)
 		(uuid "6445f1bd-c582-4f04-96ce-65c356a0136e")
+	)
+	(label "FAULT2"
+		(at 270.51 160.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c8afbe1-5617-49a0-928f-4e84ac4126e6")
 	)
 	(label "SHDN"
 		(at 269.24 99.06 90)
@@ -7890,6 +8014,17 @@
 			(justify right bottom)
 		)
 		(uuid "7c1f1e99-e1b3-4303-aec4-92fb38ea588c")
+	)
+	(label "CPO"
+		(at 194.31 160.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c9bd45e-62fa-41be-a98b-b07e32731c62")
 	)
 	(label "TMR2"
 		(at 160.02 167.64 270)
@@ -8100,6 +8235,17 @@
 		)
 		(uuid "b17e0b55-58e7-4975-a757-6109cee3bccc")
 	)
+	(label "VALID1"
+		(at 232.41 160.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b33b0585-ba5e-407e-a597-0377493dc182")
+	)
 	(label "TMR1"
 		(at 24.13 53.34 0)
 		(fields_autoplaced yes)
@@ -8121,6 +8267,17 @@
 			(justify left bottom)
 		)
 		(uuid "b913acfa-9fa8-403f-a751-5177f61b48b0")
+	)
+	(label "FAULT1"
+		(at 257.81 160.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba37ce96-9700-4d22-a1c7-9d8a6731580c")
 	)
 	(label "V2"
 		(at 110.49 161.29 0)
@@ -8276,6 +8433,17 @@
 		)
 		(uuid "ee25afd4-d6cb-43a1-ae4e-d8ab70d68d2d")
 	)
+	(label "INTVCC"
+		(at 181.61 160.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f288035d-7eb4-4732-aa08-6cc76410a980")
+	)
 	(label "DISABLE2"
 		(at 208.28 121.92 180)
 		(fields_autoplaced yes)
@@ -8410,7 +8578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 64.4652 97.79 0)
 			(effects
 				(font
@@ -8479,7 +8647,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 158.75 80.01 0)
 			(effects
 				(font
@@ -8548,7 +8716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 84.7852 97.79 0)
 			(effects
 				(font
@@ -8687,7 +8855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
 			(at 199.39 148.59 0)
 			(effects
 				(font
@@ -8892,7 +9060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" ""
 			(at 141.9352 182.88 0)
 			(effects
 				(font
@@ -9167,7 +9335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" ""
 			(at 25.0952 76.2 0)
 			(effects
 				(font
@@ -9373,7 +9541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" ""
 			(at 107.6452 92.71 0)
 			(effects
 				(font
@@ -9715,7 +9883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
 			(at 224.79 148.59 0)
 			(effects
 				(font
@@ -9782,7 +9950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" ""
 			(at 160.9852 182.88 0)
 			(effects
 				(font
@@ -9819,6 +9987,73 @@
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
 					(reference "CTMR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 232.41 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d440d8d-d508-484b-92bf-dc4e20e809f2")
+		(property "Reference" "TP11"
+			(at 234.95 144.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 234.95 146.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
+			(at 237.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 232.41 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ca4069b-fd30-43ff-a938-559c101c63f0")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -9917,7 +10152,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:ROHM_SOT-457_ClockwisePinNumbering"
 			(at 147.32 38.1 0)
 			(effects
 				(font
@@ -10066,7 +10301,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:ROHM_SOT-457_ClockwisePinNumbering"
 			(at 147.32 93.98 0)
 			(effects
 				(font
@@ -10459,6 +10694,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 257.81 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e933b18-79d2-4bc1-a2be-54f9b6b38c3f")
+		(property "Reference" "TP13"
+			(at 260.35 144.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.35 146.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
+			(at 262.89 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 257.81 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4660c97c-50b1-408e-9147-5ffc25ceb103")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 160.02 187.96 0)
 		(unit 1)
@@ -10552,7 +10854,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 158.75 24.13 0)
 			(effects
 				(font
@@ -10964,7 +11266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 74.6252 97.79 0)
 			(effects
 				(font
@@ -11103,7 +11405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
 			(at 194.31 121.92 0)
 			(effects
 				(font
@@ -11245,7 +11547,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 166.37 52.07 0)
 			(effects
 				(font
@@ -11384,7 +11686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
 			(at 261.62 121.92 0)
 			(effects
 				(font
@@ -11424,6 +11726,73 @@
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 270.51 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93db679b-5fc3-4115-af04-c43bf5111cb8")
+		(property "Reference" "TP14"
+			(at 273.05 144.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 273.05 146.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
+			(at 275.59 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 275.59 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 270.51 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcdba01d-3ed6-4daf-9d1f-1ac440a8566e")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -11796,7 +12165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" ""
 			(at 110.49 128.27 0)
 			(effects
 				(font
@@ -12074,7 +12443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" ""
 			(at 51.562 128.27 90)
 			(effects
 				(font
@@ -12212,7 +12581,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 158.75 52.07 0)
 			(effects
 				(font
@@ -12351,7 +12720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
 			(at 186.69 148.59 0)
 			(effects
 				(font
@@ -12483,7 +12852,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:ROHM_SOT-457_ClockwisePinNumbering"
 			(at 147.32 66.04 0)
 			(effects
 				(font
@@ -12565,7 +12934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
 			(at 228.6 121.92 0)
 			(effects
 				(font
@@ -12707,7 +13076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
 			(at 212.09 148.59 0)
 			(effects
 				(font
@@ -12773,7 +13142,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 166.37 80.01 0)
 			(effects
 				(font
@@ -12816,6 +13185,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 245.11 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eaa11368-87aa-4c80-a1b2-0d0f6b160541")
+		(property "Reference" "TP12"
+			(at 247.65 144.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 247.65 146.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
+			(at 250.19 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 245.11 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e903f53-0eec-4661-9ca7-f3a2c784755b")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 166.37 24.13 90)
 		(unit 1)
@@ -12842,7 +13278,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 166.37 24.13 0)
 			(effects
 				(font
@@ -12909,7 +13345,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LTC4421:G_05-08-1640_ADI"
+		(property "Footprint" "PowerBoardLib:G_05-08-1640_ADI"
 			(at 31.75 27.94 0)
 			(effects
 				(font
@@ -13083,7 +13519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE319K:C_Axial_200mil"
+		(property "Footprint" ""
 			(at 107.6452 46.99 0)
 			(effects
 				(font
