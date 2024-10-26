@@ -10611,7 +10611,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "625p"
+		(property "Value" "500p"
 			(at 110.49 90.1699 0)
 			(effects
 				(font
@@ -10620,7 +10620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 107.6452 92.71 0)
 			(effects
 				(font
@@ -10629,7 +10629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
 			(at 106.68 88.9 0)
 			(effects
 				(font
@@ -10656,7 +10656,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" ""
+		(property "MFG PN" "CC0603KRX7R9BB501"
 			(at 106.68 88.9 0)
 			(effects
 				(font
@@ -14527,7 +14527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PowerBoardLib:EEUFS1C122LB"
 			(at 110.49 128.27 0)
 			(effects
 				(font
@@ -15211,7 +15211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 51.562 128.27 90)
 			(effects
 				(font
@@ -15220,7 +15220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6352/YAGEO%20Datasheet_PA0603_1mR_L_0_RoHS_P_TCR.pdf"
 			(at 53.34 128.27 0)
 			(effects
 				(font
@@ -15247,7 +15247,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" ""
+		(property "MFG PN" "PA0603FRP7W0R001L"
 			(at 53.34 128.27 0)
 			(effects
 				(font
