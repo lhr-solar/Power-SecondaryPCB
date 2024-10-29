@@ -4929,7 +4929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 246.38 101.6 0)
 			(effects
 				(font
@@ -4938,7 +4938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.vishay.com/docs/62350/sq2361ces.pdf"
 			(at 241.3 116.84 0)
 			(effects
 				(font
@@ -7154,7 +7154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 88.9 50.4952 0)
 			(effects
 				(font
@@ -8089,7 +8089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 190.5 50.4952 0)
 			(effects
 				(font
