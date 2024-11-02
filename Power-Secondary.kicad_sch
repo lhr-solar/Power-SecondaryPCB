@@ -736,175 +736,6 @@
 				)
 			)
 		)
-		(symbol "PowerBoardLib:74LVC2G07GV,125"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 9.906 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74LVC2G07GV,125"
-				(at -0.254 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC2G07.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74LVC2G07GV,125_1_1"
-				(rectangle
-					(start -5.08 6.35)
-					(end 5.08 -8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "1A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -6.35 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "2A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "2Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 3.81 0)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "1Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "PowerBoardLib:SMBJ15D-M3I"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -1980,7 +1811,7 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:NMOS"
+		(symbol "Simulation_SPICE:PMOS"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -1997,7 +1828,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
+			(property "Value" "PMOS"
 				(at 5.08 -1.27 0)
 				(effects
 					(font
@@ -2024,7 +1855,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "Description" "P-MOSFET transistor, drain/source/gate"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2033,7 +1864,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "NMOS"
+			(property "Sim.Device" "PMOS"
 				(at 0 -17.145 0)
 				(effects
 					(font
@@ -2060,7 +1891,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2069,7 +1900,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(symbol "PMOS_0_1"
 				(polyline
 					(pts
 						(xy 0.254 0) (xy -2.54 0)
@@ -2156,7 +1987,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -2168,7 +1999,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
 					)
 					(stroke
 						(width 0)
@@ -2180,7 +2011,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
 					)
 					(stroke
 						(width 0)
@@ -2192,7 +2023,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
 					)
 					(stroke
 						(width 0)
@@ -2236,7 +2067,7 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
+			(symbol "PMOS_1_1"
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
@@ -2547,16 +2378,16 @@
 		(uuid "7e0ad3c8-d3fc-477e-9064-d9aaf01336aa")
 	)
 	(junction
-		(at 236.22 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c6f4a3a-df69-409e-887a-710ab00be867")
-	)
-	(junction
 		(at 240.03 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f2a7688-52f9-42ea-bac2-d94942383553")
+	)
+	(junction
+		(at 219.71 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f3ecb5a-0249-4600-9721-5b70477e68b0")
 	)
 	(junction
 		(at 48.26 45.72)
@@ -2583,7 +2414,7 @@
 		(uuid "ca24853d-a997-4f43-9994-a9f5669a8f10")
 	)
 	(junction
-		(at 243.84 113.03)
+		(at 227.33 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb30db4b-dcd8-4ed8-a3b8-d836cdd5ff6c")
@@ -2636,14 +2467,6 @@
 		(color 0 0 0 0)
 		(uuid "fa0f9d4d-e0ac-410c-b3b5-186dbea00113")
 	)
-	(no_connect
-		(at 228.6 106.68)
-		(uuid "99f40ffc-2edb-475d-b3fe-2f7b4204ed57")
-	)
-	(no_connect
-		(at 213.36 106.68)
-		(uuid "b45b7274-09f2-40a9-830a-4ccd07df3460")
-	)
 	(wire
 		(pts
 			(xy 72.39 53.34) (xy 83.82 53.34)
@@ -2686,7 +2509,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 113.03) (xy 243.84 115.57)
+			(xy 227.33 111.76) (xy 227.33 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2936,16 +2759,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 100.33) (xy 213.36 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fbd7f9a-8910-421c-88fd-2ffc1e3ae486")
-	)
-	(wire
-		(pts
 			(xy 195.58 68.58) (xy 195.58 72.39)
 		)
 		(stroke
@@ -2956,7 +2769,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 109.22) (xy 243.84 113.03)
+			(xy 227.33 107.95) (xy 227.33 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3026,7 +2839,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 113.03) (xy 243.84 113.03)
+			(xy 219.71 111.76) (xy 227.33 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3174,16 +2987,6 @@
 		)
 		(uuid "84b93429-9b31-4f2c-a392-4599513de971")
 	)
-	(wire
-		(pts
-			(xy 205.74 110.49) (xy 213.36 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8660d98c-a4f6-4b5d-9c2e-a4c9228a4363")
-	)
 	(polyline
 		(pts
 			(xy 139.7 44.45) (xy 139.7 88.9)
@@ -3206,7 +3009,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 90.17) (xy 243.84 99.06)
+			(xy 227.33 88.9) (xy 227.33 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3236,7 +3039,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 104.14) (xy 236.22 105.41)
+			(xy 219.71 102.87) (xy 219.71 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3366,7 +3169,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 104.14) (xy 236.22 104.14)
+			(xy 212.09 102.87) (xy 219.71 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3393,16 +3196,6 @@
 			(type default)
 		)
 		(uuid "bc6d3f5b-d3a6-494b-8dc0-7a8c58a31d72")
-	)
-	(wire
-		(pts
-			(xy 107.95 88.9) (xy 118.11 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c052d04a-d4b9-464f-b5cb-8c04533c522b")
 	)
 	(wire
 		(pts
@@ -3473,16 +3266,6 @@
 			(type default)
 		)
 		(uuid "d6900128-37a3-4803-8ac0-ec1592073f2b")
-	)
-	(wire
-		(pts
-			(xy 203.2 104.14) (xy 213.36 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9b9a30e-a9da-44ab-a287-a5e333a1ce98")
 	)
 	(wire
 		(pts
@@ -3912,6 +3695,17 @@
 		)
 		(uuid "cd016625-9923-4eef-8096-33c64770b0eb")
 	)
+	(label "V1"
+		(at 212.09 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11141af6-717b-4b3a-9acf-b3c6c73468c0")
+	)
 	(label "OUT"
 		(at 224.79 30.48 90)
 		(fields_autoplaced yes)
@@ -3946,7 +3740,7 @@
 		(uuid "1dcc4e5f-4c71-4794-b927-a9c24b26e3f7")
 	)
 	(label "SHDN"
-		(at 243.84 90.17 270)
+		(at 227.33 88.9 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4000,17 +3794,6 @@
 		)
 		(uuid "61c4f98c-480e-4c55-8a05-621fb9441999")
 	)
-	(label "VALID2"
-		(at 107.95 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6317ab31-fcb9-4dd9-88aa-dcd934f0d438")
-	)
 	(label "SOURCE2"
 		(at 207.01 53.34 180)
 		(fields_autoplaced yes)
@@ -4043,17 +3826,6 @@
 			(justify left bottom)
 		)
 		(uuid "8328ce6f-9719-4aa7-9e6c-8afe028df31c")
-	)
-	(label "INTVCC"
-		(at 203.2 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a3b7ec20-a460-43e4-8651-b0d9627128f5")
 	)
 	(label "GATE1"
 		(at 109.22 68.58 0)
@@ -4098,17 +3870,6 @@
 			(justify right bottom)
 		)
 		(uuid "c2e88f94-b794-4faa-b3d0-eb18dc5061d0")
-	)
-	(label "VALID2"
-		(at 203.2 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3347089-a2d7-4575-bb05-f8ce5c694af8")
 	)
 	(label "SOURCE1"
 		(at 72.39 53.34 0)
@@ -4541,7 +4302,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 243.84 115.57 0)
+		(at 227.33 114.3 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4551,7 +4312,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e4886af-edff-4026-9bbc-7470e49acce1")
 		(property "Reference" "#PWR026"
-			(at 243.84 121.92 0)
+			(at 227.33 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4560,7 +4321,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 120.65 0)
+			(at 227.33 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4569,7 +4330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 115.57 0)
+			(at 227.33 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4578,7 +4339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 115.57 0)
+			(at 227.33 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4587,7 +4348,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 115.57 0)
+			(at 227.33 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4968,106 +4729,6 @@
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 241.3 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4928c870-6166-482d-a337-c4200dc93e10")
-		(property "Reference" "Q6"
-			(at 247.65 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 247.65 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 246.38 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/62350/sq2361ces.pdf"
-			(at 241.3 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 241.3 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 241.3 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 241.3 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 241.3 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4fb8683f-2882-4682-ac40-b1a9cdcb299b")
-		)
-		(pin "3"
-			(uuid "920c2208-8cf9-4904-9df9-1b8931d993df")
-		)
-		(pin "1"
-			(uuid "fa588b0d-c77d-4ad4-8f24-c791b7fc266b")
-		)
-		(instances
-			(project "Power-Secondary"
-				(path "/ba21eba1-72a9-489c-9498-a38516b9f252"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -6954,7 +6615,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 236.22 109.22 0)
+		(at 219.71 107.95 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6963,7 +6624,7 @@
 		(dnp no)
 		(uuid "ac0cdcaf-2f54-40a6-8593-890eb77cecdf")
 		(property "Reference" "R17"
-			(at 237.49 107.95 0)
+			(at 220.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6972,7 +6633,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 237.49 110.49 0)
+			(at 220.98 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6981,7 +6642,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 237.998 109.22 90)
+			(at 221.488 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6990,7 +6651,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
-			(at 236.22 109.22 0)
+			(at 219.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6999,7 +6660,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 236.22 109.22 0)
+			(at 219.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7008,7 +6669,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 236.22 109.22 0)
+			(at 219.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7017,7 +6678,7 @@
 			)
 		)
 		(property "MFG PN" "RK73H2ATTD1R20F"
-			(at 236.22 109.22 0)
+			(at 219.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7026,7 +6687,7 @@
 			)
 		)
 		(property "P/N" ""
-			(at 236.22 109.22 0)
+			(at 219.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7035,7 +6696,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 236.22 109.22 0)
+			(at 219.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7044,7 +6705,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 236.22 109.22 0)
+			(at 219.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7053,7 +6714,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 236.22 109.22 0)
+			(at 219.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7139,6 +6800,106 @@
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 224.79 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af96925a-98ad-4799-8f2b-831c79455f45")
+		(property "Reference" "Q6"
+			(at 231.14 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 231.14 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 224.79 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 224.79 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 224.79 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 224.79 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 224.79 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e1fb1bca-0adb-4323-ac27-5f6376773672")
+		)
+		(pin "1"
+			(uuid "79039ee5-3be2-4e67-ac1f-69ba61e16e7e")
+		)
+		(pin "3"
+			(uuid "234366ef-9b77-4f39-93dc-09e4b7c43922")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -8963,208 +8724,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PowerBoardLib:74LVC2G07GV,125")
-		(at 220.98 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb3a24bf-d501-43da-a81e-35638f2b3dbf")
-		(property "Reference" "U1"
-			(at 220.98 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LVC2G07GV,125"
-			(at 220.98 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:ROHM_SOT-457_ClockwisePinNumbering"
-			(at 220.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC2G07.pdf"
-			(at 220.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 220.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 220.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG PN" "74LVC2G07GV,125"
-			(at 220.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" ""
-			(at 220.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 220.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 220.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 220.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d5089537-0908-4a58-8a7c-65e86bbaa958")
-		)
-		(pin "1"
-			(uuid "d139f478-e01e-4696-b700-0a6fa805304f")
-		)
-		(pin "6"
-			(uuid "877ddd55-2504-4836-8d11-d3f449c0de41")
-		)
-		(pin "3"
-			(uuid "15f5ef52-3cf2-462a-aa41-7a2b55eaeeaf")
-		)
-		(pin "5"
-			(uuid "07aac921-1105-403d-8766-ba4134743370")
-		)
-		(pin "4"
-			(uuid "393e0bce-717b-471f-8246-17988c8f5747")
-		)
-		(instances
-			(project "Power-Secondary"
-				(path "/ba21eba1-72a9-489c-9498-a38516b9f252"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 205.74 110.49 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4259462-6cf9-42c2-8953-a697786db06e")
-		(property "Reference" "#PWR027"
-			(at 199.39 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 200.66 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44bc6214-914c-4f33-99a8-b83ab3239d5c")
-		)
-		(instances
-			(project "Power-Secondary"
-				(path "/ba21eba1-72a9-489c-9498-a38516b9f252"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 245.11 59.69 0)
 		(mirror y)
@@ -9353,16 +8912,6 @@
 				(justify right)
 			)
 			(uuid "edfd6f09-3e6b-4244-becb-deaa3f36a426")
-		)
-		(pin "VALID2" output
-			(at 118.11 88.9 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f613b271-ea39-4bf4-adc0-a06cd6df8bcc")
 		)
 		(pin "OUT" output
 			(at 139.7 96.52 270)

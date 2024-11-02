@@ -8748,6 +8748,17 @@
 		)
 		(uuid "8da007b4-eddc-4930-9227-a7e799678638")
 	)
+	(label "VALID2"
+		(at 77.47 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "919ecd90-a5b3-4256-9908-69adb36cd385")
+	)
 	(label "CPOREF"
 		(at 83.82 82.55 270)
 		(fields_autoplaced yes)
@@ -9057,18 +9068,6 @@
 			(justify left)
 		)
 		(uuid "03b29e98-3b01-47fd-ab50-b5fa5fc08ef8")
-	)
-	(hierarchical_label "VALID2"
-		(shape output)
-		(at 77.47 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "10826c2c-b1cf-42ff-b052-0ce71800377d")
 	)
 	(hierarchical_label "INTVCC"
 		(shape output)
