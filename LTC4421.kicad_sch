@@ -2424,6 +2424,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 123.19) (xy 64.77 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "207c6777-fd87-4cb1-be8c-8c4aee99923b")
+	)
+	(wire
+		(pts
 			(xy 160.02 182.88) (xy 160.02 187.96)
 		)
 		(stroke
@@ -2914,6 +2924,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 114.3) (xy 48.26 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc6c460-ded0-4849-a995-2e4eebf3932d")
+	)
+	(wire
+		(pts
 			(xy 24.13 30.48) (xy 31.75 30.48)
 		)
 		(stroke
@@ -3284,7 +3304,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 132.08) (xy 53.34 140.97)
+			(xy 55.88 114.3) (xy 64.77 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3404,16 +3424,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 116.84) (xy 53.34 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfe33d96-795f-4324-9420-18820869d0f7")
-	)
-	(wire
-		(pts
 			(xy 251.46 99.06) (xy 251.46 85.09)
 		)
 		(stroke
@@ -3471,6 +3481,16 @@
 			(type default)
 		)
 		(uuid "c8a516c4-123e-46db-accb-f7aab61e1bbd")
+	)
+	(wire
+		(pts
+			(xy 39.37 123.19) (xy 48.26 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b3455e-5c6d-4568-99b1-5a8dba2efdc9")
 	)
 	(wire
 		(pts
@@ -8178,7 +8198,7 @@
 		)
 		(uuid "0439c192-dfa1-452a-a629-169320561595")
 	)
-	(label "SENSE"
+	(label "SENSE1"
 		(at 24.13 35.56 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8233,7 +8253,7 @@
 		)
 		(uuid "184cab4b-58fe-465a-bf59-ddd229e962d7")
 	)
-	(label "SENSE"
+	(label "SENSE2"
 		(at 77.47 35.56 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8386,6 +8406,17 @@
 			(justify left bottom)
 		)
 		(uuid "49f2707f-4487-4c56-9847-7c351f20bc49")
+	)
+	(label "OUT"
+		(at 64.77 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4aa51cd9-7d74-4001-9a73-674f11e864fd")
 	)
 	(label "FAULT2"
 		(at 77.47 63.5 180)
@@ -8651,6 +8682,17 @@
 		)
 		(uuid "8240dbf5-9600-4765-a9b1-53cb75989aa6")
 	)
+	(label "SENSE2"
+		(at 39.37 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86413a27-715f-4c24-81eb-98c1031ded3a")
+	)
 	(label "FAULT1"
 		(at 24.13 63.5 0)
 		(fields_autoplaced yes)
@@ -8762,13 +8804,13 @@
 		(uuid "a62e2b97-1147-48f5-bbd8-059c187f79c8")
 	)
 	(label "OUT"
-		(at 53.34 140.97 90)
+		(at 64.77 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "acf122f8-f05f-4621-9da2-181657bf53e9")
 	)
@@ -8827,14 +8869,14 @@
 		)
 		(uuid "ba37ce96-9700-4d22-a1c7-9d8a6731580c")
 	)
-	(label "SENSE"
-		(at 53.34 116.84 270)
+	(label "SENSE1"
+		(at 39.37 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "bc770c30-10c5-4e1f-b159-8d9c18182e11")
 	)
@@ -9052,6 +9094,18 @@
 		)
 		(uuid "3673e859-cf05-4ccb-9aad-bcaf2b7c1bdc")
 	)
+	(hierarchical_label "SENSE1"
+		(shape input)
+		(at 24.13 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "397eabdb-3868-464e-9189-bb67625bd25a")
+	)
 	(hierarchical_label "SHDN"
 		(shape output)
 		(at 77.47 66.04 0)
@@ -9099,6 +9153,18 @@
 			(justify left)
 		)
 		(uuid "9f7a175f-1363-4a3b-85d5-1476a7e81c1b")
+	)
+	(hierarchical_label "SENSE2"
+		(shape input)
+		(at 77.47 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aad65401-c7cd-4a14-9bfb-1fccea67edce")
 	)
 	(hierarchical_label "OUT"
 		(shape output)
@@ -14767,6 +14833,129 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 52.07 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad9f98ce-0467-448e-9c4f-bb192dd3dc1e")
+		(property "Reference" "RSENSE2"
+			(at 57.15 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1m"
+			(at 53.34 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 52.07 124.968 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6352/YAGEO%20Datasheet_PA0603_1mR_L_0_RoHS_P_TCR.pdf"
+			(at 52.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 52.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 52.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG PN" "PA0603FRP7W0R001L"
+			(at 52.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 52.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 52.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 52.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 52.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a6e8be9-38e7-415e-be57-f27320452c3a")
+		)
+		(pin "1"
+			(uuid "410d5132-bb68-4693-9530-ffcd10ea64c4")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
+					(reference "RSENSE2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 205.74 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15394,16 +15583,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 53.34 128.27 0)
+		(at 52.07 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c4866fe5-1e95-4d83-a6a1-d43b6856e3a2")
 		(property "Reference" "RSENSE1"
-			(at 55.88 126.9999 0)
+			(at 57.15 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15412,7 +15600,7 @@
 			)
 		)
 		(property "Value" "1m"
-			(at 55.88 129.5399 0)
+			(at 53.34 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15421,7 +15609,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 51.562 128.27 90)
+			(at 52.07 116.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15430,7 +15618,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6352/YAGEO%20Datasheet_PA0603_1mR_L_0_RoHS_P_TCR.pdf"
-			(at 53.34 128.27 0)
+			(at 52.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15439,7 +15627,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 53.34 128.27 0)
+			(at 52.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15448,7 +15636,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 53.34 128.27 0)
+			(at 52.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15457,7 +15645,7 @@
 			)
 		)
 		(property "MFG PN" "PA0603FRP7W0R001L"
-			(at 53.34 128.27 0)
+			(at 52.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15466,7 +15654,7 @@
 			)
 		)
 		(property "P/N" ""
-			(at 53.34 128.27 0)
+			(at 52.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15475,7 +15663,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 53.34 128.27 0)
+			(at 52.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15484,7 +15672,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 53.34 128.27 0)
+			(at 52.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15493,7 +15681,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 53.34 128.27 0)
+			(at 52.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
