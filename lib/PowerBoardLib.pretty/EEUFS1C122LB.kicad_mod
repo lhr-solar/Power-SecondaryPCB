@@ -117,16 +117,7 @@
 		(layer "F.Fab")
 		(uuid "65813049-7a5b-430a-aeaa-41cd3111a31f")
 	)
-	(pad "N" thru_hole circle
-		(at 2.5 0)
-		(size 1.2 1.2)
-		(drill 0.85)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "ffd96542-0092-4418-b584-c8e2ffa739f1")
-	)
-	(pad "P" thru_hole rect
+	(pad "1" thru_hole rect
 		(at -2.5 0)
 		(size 1.2 1.2)
 		(drill 0.85)
@@ -134,5 +125,14 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "251cb552-d59d-4037-a5f8-84cccb5090cc")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.2 1.2)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "ffd96542-0092-4418-b584-c8e2ffa739f1")
 	)
 )
