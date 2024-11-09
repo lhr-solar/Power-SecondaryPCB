@@ -2117,12 +2117,6 @@
 		(uuid "9d415b43-6985-4812-a019-0164e0b0048f")
 	)
 	(junction
-		(at 154.94 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a698200d-b2d8-4bbb-b0b4-e215c9b4f4cf")
-	)
-	(junction
 		(at 106.68 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3104,16 +3098,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 102.87) (xy 157.48 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93e66967-ab60-4d97-b812-65cc366edaf9")
-	)
-	(wire
-		(pts
 			(xy 158.75 36.83) (xy 158.75 38.1)
 		)
 		(stroke
@@ -3191,16 +3175,6 @@
 			(type default)
 		)
 		(uuid "9d09ab2c-d53a-450b-a5d5-7cff5103ed54")
-	)
-	(wire
-		(pts
-			(xy 154.94 96.52) (xy 154.94 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fbf2f29-82a7-4114-b0a1-ee07e41a101a")
 	)
 	(wire
 		(pts
@@ -8573,7 +8547,7 @@
 		(uuid "727d3051-fc3e-4ac5-bfae-dafd015efe96")
 	)
 	(label "VALID1"
-		(at 130.81 38.1 0)
+		(at 130.81 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8969,7 +8943,7 @@
 		(uuid "d532f7b0-1db7-4d3f-b803-b2a4779a6df0")
 	)
 	(label "CH1"
-		(at 130.81 40.64 0)
+		(at 130.81 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9105,6 +9079,18 @@
 		)
 		(uuid "397eabdb-3868-464e-9189-bb67625bd25a")
 	)
+	(hierarchical_label "Non-Crit Drive"
+		(shape output)
+		(at 166.37 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4731f3d0-09f8-4f59-b521-cdcd43460a95")
+	)
 	(hierarchical_label "SHDN"
 		(shape output)
 		(at 77.47 66.04 0)
@@ -9176,18 +9162,6 @@
 			(justify right)
 		)
 		(uuid "be53910f-4c6d-4c50-908c-2285e0adfaf5")
-	)
-	(hierarchical_label "Non-Crit Drive"
-		(shape output)
-		(at 157.48 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e96ceeb9-cdb1-48b7-9a09-10dff030bf1a")
 	)
 	(symbol
 		(lib_id "ECE319K:C")

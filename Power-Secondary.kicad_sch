@@ -3695,7 +3695,7 @@
 		)
 		(uuid "cd016625-9923-4eef-8096-33c64770b0eb")
 	)
-	(label "V1"
+	(label "V2"
 		(at 212.09 102.87 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6808,15 +6808,15 @@
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
 		(at 224.79 102.87 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "af96925a-98ad-4799-8f2b-831c79455f45")
 		(property "Reference" "Q6"
-			(at 231.14 101.5999 0)
+			(at 231.14 104.1401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6825,7 +6825,7 @@
 			)
 		)
 		(property "Value" "PMOS"
-			(at 231.14 104.1399 0)
+			(at 231.14 101.6001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6833,8 +6833,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 229.87 100.33 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 229.87 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6843,7 +6843,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 224.79 115.57 0)
+			(at 224.79 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,7 +6861,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 224.79 120.015 0)
+			(at 224.79 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6870,7 +6870,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 224.79 121.92 0)
+			(at 224.79 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6879,7 +6879,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 224.79 118.11 0)
+			(at 224.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
