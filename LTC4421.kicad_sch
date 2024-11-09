@@ -14857,7 +14857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "PowerBoardLib:WSL25121L000FEA18"
 			(at 52.07 124.968 90)
 			(effects
 				(font
@@ -14866,7 +14866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6352/YAGEO%20Datasheet_PA0603_1mR_L_0_RoHS_P_TCR.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/31057/wslhigh.pdf"
 			(at 52.07 123.19 0)
 			(effects
 				(font
@@ -15607,7 +15607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "PowerBoardLib:WSL25121L000FEA18"
 			(at 52.07 116.078 90)
 			(effects
 				(font
@@ -15616,7 +15616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6352/YAGEO%20Datasheet_PA0603_1mR_L_0_RoHS_P_TCR.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/31057/wslhigh.pdf"
 			(at 52.07 114.3 0)
 			(effects
 				(font

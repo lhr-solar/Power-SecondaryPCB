@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP WSL25121L000FEA18
+D Res Metal Strip 2512 0.001 Ohm 1% 2W +/-275ppm/C Sulfur Resistant Pad SMD Automotive T/R
+K
+F https://www.arrow.com/en/products/wsl25121l000fea18/vishay
+$ENDCMP
+#
+#End Doc Library

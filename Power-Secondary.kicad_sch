@@ -2065,6 +2065,12 @@
 		(uuid "68475cd9-9d28-40e0-8b83-c9e23a2f9bbe")
 	)
 	(junction
+		(at 215.9 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6984e476-9fb8-47e8-bb8f-0340c0f14d03")
+	)
+	(junction
 		(at 228.6 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2093,12 +2099,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b88e23e3-1cf1-4710-96db-7229efb3e2fd")
-	)
-	(junction
-		(at 219.71 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c050ace5-3087-4286-bfcf-9fd7b572ce9b")
 	)
 	(junction
 		(at 100.33 57.15)
@@ -2209,6 +2209,16 @@
 			(type default)
 		)
 		(uuid "06a788d4-fe64-443d-aa37-736333953d4e")
+	)
+	(wire
+		(pts
+			(xy 215.9 102.87) (xy 219.71 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0afacad4-c939-4565-a622-a4070d053d14")
 	)
 	(wire
 		(pts
@@ -2552,7 +2562,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 111.76) (xy 228.6 111.76)
+			(xy 215.9 111.76) (xy 228.6 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2762,7 +2772,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 102.87) (xy 219.71 104.14)
+			(xy 215.9 102.87) (xy 215.9 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2902,7 +2912,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 102.87) (xy 219.71 102.87)
+			(xy 212.09 102.87) (xy 215.9 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3428,7 +3438,7 @@
 		)
 		(uuid "cd016625-9923-4eef-8096-33c64770b0eb")
 	)
-	(label "V1"
+	(label "V2"
 		(at 212.09 102.87 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6536,7 +6546,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 219.71 107.95 0)
+		(at 215.9 107.95 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6545,7 +6555,7 @@
 		(dnp no)
 		(uuid "ac0cdcaf-2f54-40a6-8593-890eb77cecdf")
 		(property "Reference" "R17"
-			(at 220.98 106.68 0)
+			(at 217.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6554,7 +6564,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 220.98 109.22 0)
+			(at 217.17 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6563,7 +6573,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 221.488 107.95 90)
+			(at 217.678 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6572,7 +6582,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
-			(at 219.71 107.95 0)
+			(at 215.9 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6581,7 +6591,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 219.71 107.95 0)
+			(at 215.9 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6590,7 +6600,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 219.71 107.95 0)
+			(at 215.9 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6599,7 +6609,7 @@
 			)
 		)
 		(property "MFG PN" "RK73H2ATTD1R20F"
-			(at 219.71 107.95 0)
+			(at 215.9 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6608,7 +6618,7 @@
 			)
 		)
 		(property "P/N" ""
-			(at 219.71 107.95 0)
+			(at 215.9 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6617,7 +6627,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 219.71 107.95 0)
+			(at 215.9 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6626,7 +6636,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 219.71 107.95 0)
+			(at 215.9 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6635,7 +6645,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 219.71 107.95 0)
+			(at 215.9 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
