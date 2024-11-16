@@ -3828,16 +3828,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 148.59) (xy 194.31 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb6b5bf3-be50-498c-a6c2-6c33f8b59959")
-	)
-	(wire
-		(pts
 			(xy 205.74 73.66) (xy 205.74 77.47)
 		)
 		(stroke
@@ -8601,17 +8591,6 @@
 		)
 		(uuid "7c1f1e99-e1b3-4303-aec4-92fb38ea588c")
 	)
-	(label "CPO"
-		(at 194.31 160.02 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7c9bd45e-62fa-41be-a98b-b07e32731c62")
-	)
 	(label "TMR2"
 		(at 160.02 167.64 270)
 		(fields_autoplaced yes)
@@ -9650,127 +9629,6 @@
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 194.31 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e90c786-fd4f-4a06-b9a5-d62941ee69e3")
-		(property "Reference" "TP2"
-			(at 196.85 144.0179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 196.85 146.5579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
-			(at 199.39 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 194.31 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 194.31 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG PN" ""
-			(at 194.31 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" ""
-			(at 194.31 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 194.31 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 194.31 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 194.31 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ebc6b2c-9eab-4b3d-a1df-876b60a21ba3")
-		)
-		(instances
-			(project "Power-Secondary"
-				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -14831,7 +14689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "PowerBoardLib:RESC6432X89N"
 			(at 52.07 124.968 90)
 			(effects
 				(font
@@ -15581,7 +15439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "PowerBoardLib:RESC6432X89N"
 			(at 52.07 116.078 90)
 			(effects
 				(font
