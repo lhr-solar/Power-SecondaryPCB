@@ -1,4 +1,4 @@
-23263674511044306
+23265409895494857
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -83975,6 +83975,13 @@ PowerBoardLib
 P26_DO-214AA_SMB
 Diotec SMB (DO-214AA), Diode
 Diotec SMB (DO-214AA), Diode
+0
+2
+2
+PowerBoardLib
+RESC6432X89N
+WSL2512
+Resistor
 0
 2
 2

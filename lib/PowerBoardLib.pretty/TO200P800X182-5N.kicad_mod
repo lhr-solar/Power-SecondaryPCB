@@ -331,7 +331,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "624bdd3f-6abb-47b6-bde0-90a48a814039")
 	)
-	(model "${KIPRJMOD}/models/lib/SQJQ140E-T1_GE3/SQJQ140E-T1_GE3.step"
+	(model "${KIPRJMOD}/lib/PowerBoardLib.pretty/SQJQ140E-T1_GE3.step"
 		(offset
 			(xyz 0 0 0)
 		)
