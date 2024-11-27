@@ -2324,6 +2324,12 @@
 		(uuid "0a7c3b5b-1bf0-4f20-8897-be0546cd7c17")
 	)
 	(junction
+		(at 245.11 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c27dd5a-80f0-4762-b1d7-190626cc9d8a")
+	)
+	(junction
 		(at 59.69 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2400,6 +2406,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b8f5553-9d97-4ad9-9682-4ea05595bd2e")
+	)
+	(junction
+		(at 242.57 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a89cb3db-2551-454e-b1a8-ec02ec462f39")
 	)
 	(junction
 		(at 231.14 44.45)
@@ -2529,7 +2541,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 46.99) (xy 245.11 59.69)
+			(xy 245.11 46.99) (xy 245.11 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2679,6 +2691,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 53.34) (xy 242.57 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd3d97a-8c18-43e8-a6b5-2da22ac9e6ae")
+	)
+	(wire
+		(pts
 			(xy 100.33 45.72) (xy 100.33 49.53)
 		)
 		(stroke
@@ -2736,6 +2758,16 @@
 			(type default)
 		)
 		(uuid "38531f77-0525-4e34-80e3-373bbc2876e3")
+	)
+	(wire
+		(pts
+			(xy 245.11 50.8) (xy 247.65 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390a6976-e1c6-40b8-9bcd-e9bfa35c203b")
 	)
 	(wire
 		(pts
@@ -2899,6 +2931,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 50.8) (xy 245.11 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d2df933-efce-4144-a195-d2f0163094a1")
+	)
+	(wire
+		(pts
 			(xy 88.9 45.72) (xy 100.33 45.72)
 		)
 		(stroke
@@ -3049,6 +3091,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 44.45) (xy 242.57 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e1e7c3f-cd91-4d1a-a9be-fffce7493120")
+	)
+	(wire
+		(pts
 			(xy 231.14 48.26) (xy 231.14 44.45)
 		)
 		(stroke
@@ -3109,6 +3161,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 53.34) (xy 242.57 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45bbc9b-4062-4259-b6d2-8a0babf4742b")
+	)
+	(wire
+		(pts
 			(xy 59.69 45.72) (xy 59.69 38.1)
 		)
 		(stroke
@@ -3136,6 +3198,16 @@
 			(type default)
 		)
 		(uuid "abcfb060-04c6-4c91-87f5-c8d43dc49fb7")
+	)
+	(wire
+		(pts
+			(xy 242.57 44.45) (xy 247.65 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac03543f-c3a2-4f2b-a3f1-5cad2cb63209")
 	)
 	(wire
 		(pts
@@ -3216,16 +3288,6 @@
 			(type default)
 		)
 		(uuid "bc6d3f5b-d3a6-494b-8dc0-7a8c58a31d72")
-	)
-	(wire
-		(pts
-			(xy 247.65 44.45) (xy 240.03 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c444b8ec-5043-438b-9dd9-dec42522c8ec")
 	)
 	(wire
 		(pts
@@ -8497,6 +8559,128 @@
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 252.73 53.34 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e23513db-eb7a-4590-a249-d482c296cf00")
+		(property "Reference" "J5"
+			(at 257.81 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PowerConn"
+			(at 260.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical"
+			(at 252.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 252.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 252.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG PN" ""
+			(at 252.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 252.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 252.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 252.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 252.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1173a54a-3e94-4192-926c-d85d66dfe7d8")
+		)
+		(pin "2"
+			(uuid "ceba7e46-5d61-42b7-80a1-322450aa2f48")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252"
+					(reference "J5")
 					(unit 1)
 				)
 			)
