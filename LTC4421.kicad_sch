@@ -7872,7 +7872,7 @@
 		)
 		(uuid "44be6dda-c665-4aa6-92d2-5b9e9be199f3")
 	)
-	(text "OV1 = 13 V\nUVR1 = 11.5 V\nUVF1 = 10.5 V"
+	(text "OV1 = 13.2 V\nUVR1 = 11.5 V\nUVF1 = 10.8 V"
 		(exclude_from_sim no)
 		(at 111.252 157.226 0)
 		(effects
@@ -7962,7 +7962,7 @@
 		)
 		(uuid "849b8691-8a68-44c9-badc-644420d5e8c5")
 	)
-	(text "Reference excel calculations:\nR6 = R4 = R2 = 5760 kOhms\nR1 = 287 kOhms\nR3 = 261 kOhms\nR5 = 215 kOhms"
+	(text "Reference excel calculations:\n\n"
 		(exclude_from_sim no)
 		(at 39.624 164.592 0)
 		(effects
@@ -11151,7 +11151,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.76M"
+		(property "Value" "5.69M"
 			(at 109.22 180.3399 0)
 			(effects
 				(font
@@ -12681,7 +12681,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "287K"
+		(property "Value" "277K"
 			(at 57.15 187.9599 0)
 			(effects
 				(font
@@ -14299,7 +14299,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "287K"
+		(property "Value" "277K"
 			(at 109.22 187.9599 0)
 			(effects
 				(font
@@ -14927,7 +14927,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.76M"
+		(property "Value" "5.69M"
 			(at 57.15 180.3399 0)
 			(effects
 				(font
@@ -15799,7 +15799,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "215K"
+		(property "Value" "226K"
 			(at 76.2 187.9599 0)
 			(effects
 				(font
@@ -17578,7 +17578,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "215K"
+		(property "Value" "226K"
 			(at 24.13 187.9599 0)
 			(effects
 				(font
