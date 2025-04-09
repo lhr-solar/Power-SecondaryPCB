@@ -9060,7 +9060,7 @@
 	)
 	(hierarchical_label "Non-Crit Drive"
 		(shape output)
-		(at 166.37 40.64 0)
+		(at 158.75 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font

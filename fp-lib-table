@@ -8,4 +8,5 @@
   (lib (name "UTSVT_Special")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/UTSVT_Special.pretty")(options "")(descr ""))
   (lib (name "UTSVT_PowerSupp")(type "KiCad")(uri "${KIPRJMOD}/lib/UTSVT_PowerSupp.pretty")(options "")(descr ""))
   (lib (name "PowerBoardLib")(type "KiCad")(uri "${KIPRJMOD}/lib/PowerBoardLib.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
 )

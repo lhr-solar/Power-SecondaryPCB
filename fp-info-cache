@@ -1,4 +1,4 @@
-23265409895494857
+23267226558411239
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63544,6 +63544,13 @@ Yellow 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimpor
 Yellow 5381 Series LED
 0
 2
+2
+Library
+Molex_Sabre_43160-0102_1x02_P7.49mm_Vertical
+Molex Sabre Power Connector, 43160-0102, 2 Pins per row (http://www.molex.com/pdm_docs/sd/431600105_sd.pdf), generated with kicad-footprint-generator
+connector Molex Sabre side entry
+0
+4
 2
 Module
 A20_OLINUXINO_LIME2

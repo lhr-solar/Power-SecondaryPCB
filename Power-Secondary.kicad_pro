@@ -497,7 +497,7 @@
       "plot": "C:/Users/frank/Documents/github/Solar/Power-SecondaryPCB/Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Power-Secondary.step",
       "svg": "",
       "vrml": ""
     },
