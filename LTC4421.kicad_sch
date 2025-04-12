@@ -2051,12 +2051,6 @@
 		(uuid "45f03a2e-e418-466a-8fdf-f19cc891f155")
 	)
 	(junction
-		(at 31.75 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48146e9c-9703-4eac-800e-168331aa0b31")
-	)
-	(junction
 		(at 223.52 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3175,16 +3169,6 @@
 			(type default)
 		)
 		(uuid "9d09ab2c-d53a-450b-a5d5-7cff5103ed54")
-	)
-	(wire
-		(pts
-			(xy 24.13 66.04) (xy 31.75 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1016208-7382-4f49-9d4b-870a74ffc2e4")
 	)
 	(wire
 		(pts
@@ -9024,7 +9008,7 @@
 	)
 	(hierarchical_label "INTVCC"
 		(shape output)
-		(at 24.13 66.04 180)
+		(at 24.13 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9081,6 +9065,18 @@
 			(justify left)
 		)
 		(uuid "5855ab8d-a4cc-463b-84db-24054cd38594")
+	)
+	(hierarchical_label "SHDN_sig"
+		(shape output)
+		(at 158.75 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ebfd198-7550-43a5-8716-2f7e8cda5fe2")
 	)
 	(hierarchical_label "SOURCE1"
 		(shape input)
@@ -13441,7 +13437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 194.31 121.92 0)
 			(effects
 				(font
@@ -13814,7 +13810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 261.62 121.92 0)
 			(effects
 				(font
@@ -16501,7 +16497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 228.6 121.92 0)
 			(effects
 				(font
