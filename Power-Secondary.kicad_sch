@@ -18,23 +18,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 1.27 5.08 0)
+			(property "Reference" "U1"
+				(at -8.8586 -10.16 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "LM397"
-				(at 3.81 -5.08 0)
+			(property "Value" "TLV9061QDCKRQ1"
+				(at -6.3186 -10.16 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 				(at 1.27 -15.24 0)
 				(effects
 					(font
@@ -104,7 +104,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -122,7 +122,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9048,7 +9048,7 @@
 				)
 			)
 		)
-		(property "Value" "LM397"
+		(property "Value" "TLV9061QDCKRQ1"
 			(at 158.75 102.9014 90)
 			(effects
 				(font
