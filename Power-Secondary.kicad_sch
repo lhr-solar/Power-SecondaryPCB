@@ -1636,8 +1636,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 19.304 0)
+			(property "Reference" "U3"
+				(at 0 20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1645,7 +1645,7 @@
 				)
 			)
 			(property "Value" "VND9016AJ"
-				(at 0 16.764 0)
+				(at 0 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1690,7 +1690,7 @@
 							)
 						)
 					)
-					(number "TAB"
+					(number "17"
 						(effects
 							(font
 								(size 1 1)
@@ -5166,7 +5166,7 @@
 				(hide yes)
 			)
 		)
-		(pin "TAB"
+		(pin "17"
 			(uuid "1c48c110-d30e-4ad3-b93b-441fef73909f")
 		)
 		(pin "8"
