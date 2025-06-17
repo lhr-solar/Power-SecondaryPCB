@@ -2224,7 +2224,7 @@
 		)
 		(uuid "0d6ae8aa-fc1a-4d60-a6a2-1ff08fd69331")
 	)
-	(text "Enable"
+	(text "Auto-retry\n"
 		(exclude_from_sim no)
 		(at 200.66 115.57 0)
 		(effects
@@ -2504,7 +2504,7 @@
 		)
 		(uuid "c888e160-ebc4-455a-b4c1-8bc83353d2b2")
 	)
-	(text "Enable"
+	(text "Auto-retry"
 		(exclude_from_sim no)
 		(at 267.97 115.57 0)
 		(effects
@@ -2727,18 +2727,6 @@
 	(no_connect
 		(at 31.75 71.12)
 		(uuid "191bf5d8-38cc-40ed-bb82-aa659eccd48b")
-	)
-	(no_connect
-		(at 228.6 115.57)
-		(uuid "4235b658-cdc2-410e-b51e-4bcdbfae5fc9")
-	)
-	(no_connect
-		(at 261.62 115.57)
-		(uuid "75063093-e39b-4064-a708-f7ea478c8dcc")
-	)
-	(no_connect
-		(at 194.31 115.57)
-		(uuid "e764444b-9233-415c-b4ca-5db71d0e9e7d")
 	)
 	(wire
 		(pts
@@ -8328,6 +8316,16 @@
 		(uuid "9cf2c13f-2dd5-4787-8e1e-f7c8cdebc050")
 	)
 	(label "INTVCC"
+		(at 228.6 115.57 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a02d17e8-66bb-4f45-b508-ad09fbcf5d82")
+	)
+	(label "INTVCC"
 		(at 24.13 68.58 0)
 		(effects
 			(font
@@ -8406,6 +8404,16 @@
 			(justify left bottom)
 		)
 		(uuid "bc770c30-10c5-4e1f-b159-8d9c18182e11")
+	)
+	(label "FAULT2"
+		(at 194.31 115.57 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c35933ea-2ad4-4f31-a523-daeafcb6ce47")
 	)
 	(label "CH1"
 		(at 205.74 99.06 90)
@@ -8506,6 +8514,16 @@
 			(justify right bottom)
 		)
 		(uuid "e53ac1c8-7bd4-4252-8fbc-e81eaef72000")
+	)
+	(label "FAULT1"
+		(at 261.62 115.57 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed0ed652-3854-49d7-a737-9b54e1627b98")
 	)
 	(label "INTVCC"
 		(at 181.61 160.02 90)
