@@ -3508,6 +3508,12 @@
 		(uuid "4b38bc9a-240c-4811-9743-8ceabd786ef7")
 	)
 	(junction
+		(at 213.36 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "605cf5be-2dcb-44dd-b9c5-7f52a2dba620")
+	)
+	(junction
 		(at 160.02 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3550,6 +3556,12 @@
 		(uuid "8f2a7688-52f9-42ea-bac2-d94942383553")
 	)
 	(junction
+		(at 217.17 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "927455ff-14c9-465c-957a-8cfe4096d621")
+	)
+	(junction
 		(at 48.26 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3560,6 +3572,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b88e23e3-1cf1-4710-96db-7229efb3e2fd")
+	)
+	(junction
+		(at 223.52 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6ec5a7b-88a2-4f03-9e28-51cff044057c")
 	)
 	(junction
 		(at 100.33 57.15)
@@ -3652,6 +3670,16 @@
 			(type default)
 		)
 		(uuid "02e0cea4-de30-4b97-b04a-55ecdf4a1b78")
+	)
+	(wire
+		(pts
+			(xy 217.17 111.76) (xy 228.6 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0317c650-43df-478f-ac76-69ac438b1ee6")
 	)
 	(wire
 		(pts
@@ -3865,6 +3893,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 104.14) (xy 223.52 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "292156cc-9041-48cb-b5ff-0e89702de3be")
+	)
+	(wire
+		(pts
 			(xy 161.29 72.39) (xy 195.58 72.39)
 		)
 		(stroke
@@ -3872,6 +3910,16 @@
 			(type default)
 		)
 		(uuid "2c3c7e6c-c34d-4718-abb4-8f4f77e970c1")
+	)
+	(wire
+		(pts
+			(xy 217.17 104.14) (xy 223.52 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb55e38-a35f-447a-8937-72ac4ddbeed3")
 	)
 	(wire
 		(pts
@@ -4075,7 +4123,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 109.22) (xy 223.52 100.33)
+			(xy 223.52 109.22) (xy 223.52 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4315,7 +4363,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 111.76) (xy 228.6 111.76)
+			(xy 213.36 111.76) (xy 217.17 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5880,6 +5928,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 111.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e9893cb-b7f8-47a5-ac32-13d2b05628d0")
+		(property "Reference" "IGN_Gate1"
+			(at 215.9 113.7919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 215.9 116.3319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 208.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "631504cb-01ba-4ae8-88d1-e4e27a025b5a")
+		)
+		(instances
+			(project ""
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252"
+					(reference "IGN_Gate1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 54.61 102.87 0)
 		(unit 1)
@@ -5907,7 +6021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 59.69 100.33 0)
 			(effects
 				(font
@@ -9122,6 +9236,75 @@
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 217.17 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0797803-1743-4310-8223-b43bf83dfd44")
+		(property "Reference" "R18"
+			(at 218.694 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 218.694 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 215.392 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "659ccbb3-19d4-4fa2-9258-c3ecf62df4de")
+		)
+		(pin "2"
+			(uuid "dd8a9ba3-ca0d-4bf7-b8d7-e78b21416066")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252"
+					(reference "R18")
 					(unit 1)
 				)
 			)
