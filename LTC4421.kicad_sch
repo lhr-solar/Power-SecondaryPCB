@@ -2599,6 +2599,18 @@
 		(uuid "26cfb771-26aa-4886-989a-01aab2f1545f")
 	)
 	(junction
+		(at 166.37 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e22a950-d3d1-4df3-aebc-bd5027ab856a")
+	)
+	(junction
+		(at 166.37 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3571ff5c-d24d-4900-a1c6-d0b8a6e587cb")
+	)
+	(junction
 		(at 29.21 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8602,12 +8614,12 @@
 	)
 	(hierarchical_label "Non-Crit Drive"
 		(shape output)
-		(at 166.37 40.64 270)
+		(at 166.37 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "4731f3d0-09f8-4f59-b521-cdcd43460a95")
 	)
@@ -10567,7 +10579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ab64d11-cdda-41db-bf5e-6700beb2dfd1")
-		(property "Reference" "TP4"
+		(property "Reference" "CH2"
 			(at 222.25 144.0179 0)
 			(effects
 				(font
@@ -10672,7 +10684,7 @@
 		(instances
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
-					(reference "TP4")
+					(reference "CH2")
 					(unit 1)
 				)
 			)
@@ -10812,7 +10824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d440d8d-d508-484b-92bf-dc4e20e809f2")
-		(property "Reference" "TP11"
+		(property "Reference" "VALID1"
 			(at 234.95 144.0179 0)
 			(effects
 				(font
@@ -10917,7 +10929,7 @@
 		(instances
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
-					(reference "TP11")
+					(reference "VALID1")
 					(unit 1)
 				)
 			)
@@ -11783,7 +11795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e933b18-79d2-4bc1-a2be-54f9b6b38c3f")
-		(property "Reference" "TP13"
+		(property "Reference" "FAULT1"
 			(at 260.35 144.0179 0)
 			(effects
 				(font
@@ -11888,7 +11900,7 @@
 		(instances
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
-					(reference "TP13")
+					(reference "FAULT1")
 					(unit 1)
 				)
 			)
@@ -13098,7 +13110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93db679b-5fc3-4115-af04-c43bf5111cb8")
-		(property "Reference" "TP14"
+		(property "Reference" "FAULT2"
 			(at 273.05 144.0179 0)
 			(effects
 				(font
@@ -13203,7 +13215,7 @@
 		(instances
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
-					(reference "TP14")
+					(reference "FAULT2")
 					(unit 1)
 				)
 			)
@@ -14769,6 +14781,127 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 166.37 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0856bbf-b44f-4981-b2f1-bad5c2e34caa")
+		(property "Reference" "NCDrive1"
+			(at 168.91 42.6719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 168.91 45.2119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 161.29 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 166.37 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 166.37 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG PN" ""
+			(at 166.37 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 166.37 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 166.37 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 166.37 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 166.37 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b601b41c-3964-40c2-bdc6-2e686b8bd518")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
+					(reference "NCDrive1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 181.61 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14777,7 +14910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0ada311-5791-4ed4-ac3d-1d66ac6d74cf")
-		(property "Reference" "TP1"
+		(property "Reference" "INTVCC1"
 			(at 184.15 144.0179 0)
 			(effects
 				(font
@@ -14882,7 +15015,7 @@
 		(instances
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
-					(reference "TP1")
+					(reference "INTVCC1")
 					(unit 1)
 				)
 			)
@@ -15215,7 +15348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4a0045d-793b-4bf5-a010-5d9aefe91012")
-		(property "Reference" "TP3"
+		(property "Reference" "CH1"
 			(at 209.55 144.0179 0)
 			(effects
 				(font
@@ -15320,7 +15453,7 @@
 		(instances
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
-					(reference "TP3")
+					(reference "CH1")
 					(unit 1)
 				)
 			)
@@ -15459,7 +15592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaa11368-87aa-4c80-a1b2-0d0f6b160541")
-		(property "Reference" "TP12"
+		(property "Reference" "VALID2"
 			(at 247.65 144.0179 0)
 			(effects
 				(font
@@ -15564,7 +15697,7 @@
 		(instances
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
-					(reference "TP12")
+					(reference "VALID2")
 					(unit 1)
 				)
 			)
@@ -16037,6 +16170,127 @@
 			(project "Power-Secondary"
 				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
 					(reference "CCPO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 166.37 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffc1da03-2b0f-4d0f-9224-9cf7d1ccbab2")
+		(property "Reference" "SHDNSig1"
+			(at 168.91 98.5519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 168.91 101.0919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 166.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 166.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG PN" ""
+			(at 166.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 166.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 166.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 166.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 166.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6d43ebb-fafe-4a3a-8d0f-3f62fda08f6e")
+		)
+		(instances
+			(project "Power-Secondary"
+				(path "/ba21eba1-72a9-489c-9498-a38516b9f252/3184e9c2-8c00-4ca3-a214-8a04df6b61e9"
+					(reference "SHDNSig1")
 					(unit 1)
 				)
 			)
