@@ -9201,7 +9201,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0b1f5ac0-be62-452c-be76-e86c45ff2a49")
 		(property "Reference" "C3"
 			(at 78.74 92.71 0)
